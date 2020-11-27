@@ -60,7 +60,9 @@ body {
 
 .zt1 {
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Architects Daughter', cursive;   
+    font-size: 100px;
+    color: rgb(0, 0, 0);
 }
 
 .r1 {
