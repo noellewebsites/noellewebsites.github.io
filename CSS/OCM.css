@@ -1,0 +1,120 @@
+.overlay-cm {
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-cm-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-cm a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-cm a:hover, .overlay-cm a:focus {
+    color: #f1f1f1;
+}
+
+.overlay-cm .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay-cm a {
+        font-size: 20px;
+    }
+    .overlay-cm .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.csp {
+    cursor: pointer;
+}
+
+
+.btnc {
+    background-color: rgb(83,98,184);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-ocm {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.com {
+    border-color: rgb(83,98,184);
+    color: rgb(83,98,184);
+}
+
+.com:hover {
+    background-color: rgb(83,98,184);
+    color: white;
+}
+
+.ocm-center {
+    text-align: center;
+    display: block;
+}
+
+.gmi {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.gmic {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.dh {
+    display: none;
+    z-index: -1;
+}
+
+.db {
+    display: block;
+}
+
+.bp {
+    margin-left: auto;
+    margin-right: auto;
+}
