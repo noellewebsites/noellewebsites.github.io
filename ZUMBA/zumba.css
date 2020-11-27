@@ -16,6 +16,10 @@ body {
     }
 }
 
+.zt1 {
+    text-align: center;
+}
+
 /* Navbar menu */
 .navbar {
     position: fixed;
