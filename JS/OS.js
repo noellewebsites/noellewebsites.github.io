@@ -5,7 +5,7 @@ window.onscroll = function() {
 };
 
 function aboutFunction() {
-    if (document.documentElement.scrollTop > 225) {
+    if (document.documentElement.scrollTop > 200) {
         document.getElementById("A1").className = "r1 col-9 w3-animate-bottom";
     }
 }
