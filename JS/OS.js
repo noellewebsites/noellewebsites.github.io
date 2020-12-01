@@ -18,7 +18,7 @@ function cbFunction() {
 }
 
 function cvFunction() {
-    if (document.documentElement.scrollTop > 525) {
+    if (document.documentElement.scrollTop > 550) {
         document.getElementById("CV1").className = "r1 col-9 w3-animate-right";
     }
 }
