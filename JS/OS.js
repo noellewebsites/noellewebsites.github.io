@@ -2,6 +2,7 @@ window.onscroll = function() {
     aboutFunction()
     cbFunction()
     pgFunction()
+    cvFunction()
 };
 
 function aboutFunction() {
@@ -13,6 +14,12 @@ function aboutFunction() {
 function cbFunction() {
     if (document.documentElement.scrollTop > 90) {
         document.getElementById("CB1").className = "ocm-center w3-animate-right";
+    }
+}
+
+function cbFunction() {
+    if (document.documentElement.scrollTop > 290) {
+        document.getElementById("CV1").className = "r1 col-9 w3-animate-right";
     }
 }
 
