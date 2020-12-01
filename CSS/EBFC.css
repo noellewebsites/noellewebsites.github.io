@@ -1,7 +1,8 @@
 /* Background animation */
 /* #e73c73, */
 body {
-    background: linear-gradient(-45deg, #007de3,#989898);
+   /* background: linear-gradient(-45deg, #007de3,#989898); */
+    background-color: #989898;
     /*background-size: 400% 400%;*/
     /*animation: gradient 6s ease infinite;*/
     font-size: 28px;
