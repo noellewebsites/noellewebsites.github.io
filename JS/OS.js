@@ -17,7 +17,7 @@ function cbFunction() {
 }
 
 function pgFunction() {
-    if (document.documentElement.scrollTop > 1370) {
+    if (document.documentElement.scrollTop > 1470) {
         document.getElementById("PG1").className = "row w3-animate-left";
     }
 }
