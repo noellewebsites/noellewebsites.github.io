@@ -13,3 +13,9 @@
     position: absolute;
     top:8px;
 }
+
+.imgs-o {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
