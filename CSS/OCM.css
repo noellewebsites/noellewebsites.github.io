@@ -67,7 +67,7 @@
     background-color: white;
     color: black;
     padding: 14px 28px;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     text-align: center;
     border-radius: 5px;    
@@ -86,7 +86,7 @@
 .ocm-center {
     text-align: center;
     display: block;
-    height: 90px;
+    height: 100px;
 }
 
 .gmi {
