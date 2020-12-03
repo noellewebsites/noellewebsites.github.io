@@ -21,6 +21,10 @@
     opacity: 0.45;
 }
 
+.imgs-o:hover {
+    opacity: 1;
+}
+
 .centered-o {
     text-align: center;
     position: absolute;
