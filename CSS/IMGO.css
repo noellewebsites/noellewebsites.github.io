@@ -20,3 +20,7 @@
     display: block;
     opacity: 0.45;
 }
+
+.centered-o {
+    left: 50%;
+}
