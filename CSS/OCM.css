@@ -75,12 +75,12 @@
 }
 
 .com {
-    border-color: rgb(83,98,184);
-    color: rgb(83,98,184);
+    border-color: rgb(12,86,170);
+    color: rgb(12,86,170);
 }
 
 .com:hover {
-    background-color: rgb(83,98,184);
+    background-color: rgb(12,86,170);
     color: white;
 }
 
