@@ -126,6 +126,7 @@ p {
     font-size: 21px;
     padding: 3px 3px 3px 3px;
     z-index: 6;
+    font-weight: bold;
 }
 
 .abp {
