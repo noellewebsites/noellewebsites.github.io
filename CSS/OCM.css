@@ -70,9 +70,7 @@
     font-size: 30px;
     cursor: pointer;
     text-align: center;
-    border-radius: 5px;
-    height: 30px;
-    
+    border-radius: 5px;    
 }
 
 .com {
@@ -88,6 +86,7 @@
 .ocm-center {
     text-align: center;
     display: block;
+    height: 60px;
 }
 
 .gmi {
