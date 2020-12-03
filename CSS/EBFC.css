@@ -123,10 +123,9 @@ body {
 p {
     text-align: center;
     color: rgb(0,0,0);
-    font-size: 25px;
+    font-size: 23px;
     padding: 3px 3px 3px 3px;
     z-index: 6;
-    font-weight: bold;
 }
 
 .abp {
