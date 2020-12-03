@@ -18,7 +18,7 @@ function cbFunction() {
 }
 
 function cvFunction() {
-    if (document.documentElement.scrollTop > 675) {
+    if (document.documentElement.scrollTop > 670) {
         document.getElementById("CV1").className = "r1 container-o col-9 w3-animate-bottom";
     }
 }
