@@ -32,3 +32,8 @@
 .bl-o {
     border: 2px solid rgb(12, 86, 170);
 }
+
+.bt-o {
+    color: rgb(0,0,0);
+    font-size: 23px;
+}
