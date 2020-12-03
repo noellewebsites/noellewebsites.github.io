@@ -12,7 +12,7 @@ function aboutFunction() {
 }
 
 function cbFunction() {
-    if (document.documentElement.scrollTop > 50) {
+    if (document.documentElement.scrollTop > 40) {
         document.getElementById("CB1").className = "ocm-center w3-animate-right";
     }
 }
