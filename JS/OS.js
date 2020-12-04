@@ -6,7 +6,7 @@ window.onscroll = function() {
 };
 
 function aboutFunction() {
-    if (document.documentElement.scrollTop > 200) {
+    if (document.documentElement.scrollTop > 185) {
         document.getElementById("A1").className = "r1 container-o col-11 w3-animate-bottom";
     }
 }
@@ -24,7 +24,7 @@ function cvFunction() {
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 665) {
+    if (document.documentElement.scrollTop > 660) {
         document.getElementById("FAQ1").className = "r1 col-7 w3-animate-right";
     }
 }
