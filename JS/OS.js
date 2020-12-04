@@ -3,6 +3,7 @@ window.onscroll = function() {
     cbFunction()
     fqFunction()
     cvFunction()
+    adFunction()
 };
 
 function aboutFunction() {
@@ -24,9 +25,14 @@ function cvFunction() {
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 660) {
-        document.getElementById("FAQ1").className = "r1 col-7 w3-animate-right";
+    if (document.documentElement.scrollTop > 685) {
+        document.getElementById("FAQ1").className = "r1 col-7 w3-animate-bottom";
     }
 }
 
+function adFunction() {
+    if (document.documentElement.scrollTop > 800) {
+        document.getElementById("C1").className = "r1 gmi col-6 w3-animate-left";
+    }
+}
 
