@@ -24,7 +24,7 @@ function cvFunction() {
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 625) {
+    if (document.documentElement.scrollTop > 650) {
         document.getElementById("FAQ1").className = "r1 col-7 w3-animate-right";
     }
 }
