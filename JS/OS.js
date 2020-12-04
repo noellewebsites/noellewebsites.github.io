@@ -1,7 +1,7 @@
 window.onscroll = function() {
     aboutFunction()
     cbFunction()
-    pgFunction()
+    fqFunction()
     cvFunction()
 };
 
@@ -23,9 +23,9 @@ function cvFunction() {
     }
 }
 
-function pgFunction() {
-    if (document.documentElement.scrollTop > 1400) {
-        document.getElementById("PG1").className = "row w3-animate-left";
+function fqFunction() {
+    if (document.documentElement.scrollTop > 900) {
+        document.getElementById("FAQ1").className = "r1 col-7 w3-animate-right";
     }
 }
 
