@@ -4,11 +4,18 @@ window.onscroll = function() {
     fqFunction()
     cvFunction()
     adFunction()
+    atdFunction()
 };
 
 function aboutFunction() {
     if (document.documentElement.scrollTop > 185) {
         document.getElementById("A1").className = "r1 container-o col-11 w3-animate-bottom";
+    }
+}
+
+function atdFunction() {
+    if (document.documentElement.scrollTop > 225) {
+        document.getElementById("AD1").className = "top-o centered-o col-6 w3-animate-bottom";
     }
 }
 
