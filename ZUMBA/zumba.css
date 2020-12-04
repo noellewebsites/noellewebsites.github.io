@@ -1,8 +1,21 @@
+/* Background animation */
+/* #e73c73, */
 body {
+    /* background: linear-gradient(-45deg, #007de3,#989898); */
+     background-color: #989898;
+     /*background-size: 400% 400%;*/
+     /*animation: gradient 6s ease infinite;*/
+     font-size: 28px;
+     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+     z-index:-2;
+ }
+
+/*body {
     background: linear-gradient(-45deg, #B0FF92, #D6FF79, #A09BE7, #5F00BA);
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     z-index:-2;  
 }
+*/
 
 @keyframes gradient {
     0% {
