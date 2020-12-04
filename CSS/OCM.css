@@ -106,7 +106,8 @@
 }
 
 .dh {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
     z-index: -1;
 }
 
