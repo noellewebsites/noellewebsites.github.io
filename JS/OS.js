@@ -4,6 +4,7 @@ window.onscroll = function() {
     fqFunction()
     cvFunction()
     adFunction()
+    bfFunction()
 };
 
 function aboutFunction() {
@@ -33,6 +34,12 @@ function fqFunction() {
 function adFunction() {
     if (document.documentElement.scrollTop > 1050) {
         document.getElementById("C1").className = "r1 gmi col-6 w3-animate-left";
+    }
+}
+
+function bfFunction() {
+    if (document.documentElement.scrollTop > 1100) {
+        document.getElementById("BF1").className = "db bp col-7 w3-animate-right";
     }
 }
 
