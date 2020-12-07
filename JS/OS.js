@@ -26,19 +26,19 @@ function cvFunction() {
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 975) {
+    if (document.documentElement.scrollTop > 1000) {
         document.getElementById("FAQ1").className = "r1 col-7 w3-animate-bottom";
     }
 }
 
 function adFunction() {
-    if (document.documentElement.scrollTop > 1150) {
+    if (document.documentElement.scrollTop > 1175) {
         document.getElementById("C1").className = "r1 gmi col-6 w3-animate-bottom";
     }
 }
 
 function bfFunction() {
-    if (document.documentElement.scrollTop > 1200) {
+    if (document.documentElement.scrollTop > 1225) {
         document.getElementById("BF1").className = "db bp col-7 w3-animate-bottom";
     }
 }
