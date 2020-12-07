@@ -25,13 +25,13 @@ function cvFunction() {
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 750) {
+    if (document.documentElement.scrollTop > 780) {
         document.getElementById("FAQ1").className = "r1 col-7 w3-animate-bottom";
     }
 }
 
 function adFunction() {
-    if (document.documentElement.scrollTop > 900) {
+    if (document.documentElement.scrollTop > 930) {
         document.getElementById("C1").className = "r1 gmi col-6 w3-animate-left";
     }
 }
