@@ -20,13 +20,13 @@ function cbFunction() {
 }
 
 function cvFunction() {
-    if (document.documentElement.scrollTop > 500) {
+    if (document.documentElement.scrollTop > 525) {
         document.getElementById("CV1").className = "r1 container-o col-11 w3-animate-bottom";
     }
 }
 
 function fqFunction() {
-    if (document.documentElement.scrollTop > 1000) {
+    if (document.documentElement.scrollTop > 1025) {
         document.getElementById("FAQ1").className = "r1 col-7 w3-animate-bottom";
     }
 }
