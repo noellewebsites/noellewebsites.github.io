@@ -32,13 +32,13 @@ function fqFunction() {
 }
 
 function adFunction() {
-    if (document.documentElement.scrollTop > 1100) {
+    if (document.documentElement.scrollTop > 1125) {
         document.getElementById("C1").className = "r1 gmi col-6 w3-animate-left";
     }
 }
 
 function bfFunction() {
-    if (document.documentElement.scrollTop > 1150) {
+    if (document.documentElement.scrollTop > 1175) {
         document.getElementById("BF1").className = "db bp col-7 w3-animate-right";
     }
 }
