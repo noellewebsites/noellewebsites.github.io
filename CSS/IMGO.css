@@ -51,4 +51,6 @@
 .ss-image-zg {
     max-height: 768px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
