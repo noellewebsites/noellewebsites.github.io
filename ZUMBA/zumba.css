@@ -139,6 +139,15 @@ body {
     text-shadow: 1.55px 1.55px rgb(244, 196, 51);
 }
 
+.ts-bb {
+    text-shadow: 1.25px 1.25px rgb(173, 6, 151);
+}
+
+.bb-ew {
+    text-align: center;
+    float: right;
+}
+
 .ns-c {
     font-size: 35px;
     color: rgb(0, 0, 0);
