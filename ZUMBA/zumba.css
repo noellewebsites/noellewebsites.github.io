@@ -145,8 +145,8 @@ body {
 }
 
 .bb-ew {
-    text-align: center;
-    margin-right: 0;
+    text-align: right;
+    right: 0;
 }
 
 .ns-c {
