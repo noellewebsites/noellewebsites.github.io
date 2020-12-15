@@ -150,7 +150,7 @@ body {
 }
 
 .d-fr {
-    /* float: right; */
+    float: right;
     right: 0;
 }
 .ns-c {
