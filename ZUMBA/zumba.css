@@ -129,6 +129,10 @@ body {
     text-shadow: 1.25px 1.25px rgb(3, 178, 111);
 }
 
+.yog-bc {
+    background-color: rgb(3, 178, 241);
+}
+
 .ns-c {
     font-size: 35px;
     color: rgb(0, 0, 0);
