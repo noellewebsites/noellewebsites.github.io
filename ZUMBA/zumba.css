@@ -145,12 +145,12 @@ body {
 }
 
 .bb-ew {
-    text-align: right;
+    text-align: center;
     right: 0;
 }
 
 .d-fr {
-    right: 0;
+    float: right;
 }
 .ns-c {
     font-size: 35px;
