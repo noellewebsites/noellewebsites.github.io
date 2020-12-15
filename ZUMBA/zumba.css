@@ -130,7 +130,11 @@ body {
 }
 
 .yog-bc {
-    background-color: rgb(3, 178, 241);
+    background-color: rgb(244, 196, 51);
+}
+
+.ts-yog-logo {
+    text-shadow: 1.35px 1.35px rgb(255, 153, 51);
 }
 
 .ns-c {
