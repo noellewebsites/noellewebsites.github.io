@@ -27,7 +27,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 10;
-    background-color: rgb(12, 86, 170);
+    background-color: rgb(6, 71, 145);
+    /*background-color: rgb(12, 86, 170);*/
     left: 0;
     right: 0;
 }
