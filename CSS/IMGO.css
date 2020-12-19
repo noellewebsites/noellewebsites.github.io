@@ -1,3 +1,7 @@
+:root {
+    --mcb: rgb(35,74,149);
+}
+
 .container-o {
     position: relative;
     text-align: center;
@@ -33,7 +37,7 @@
 }
 
 .bl-o {
-    border: 2px solid rgb(12, 86, 170);
+    border: 2px solid var(--mcb);
 }
 
 .bt-o {

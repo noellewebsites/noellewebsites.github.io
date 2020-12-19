@@ -1,3 +1,7 @@
+:root {
+    --mcb: rgb(35,74,149);
+}
+
 .overlay-cm {
     height:100%;
     width: 0;
@@ -74,12 +78,12 @@
 }
 
 .com {
-    border-color: rgb(12,86,170);
-    color: rgb(12,86,170);
+    border-color: var(--mcb);
+    color: var(--mcb);
 }
 
 .com:hover {
-    background-color: rgb(12,86,170);
+    background-color: var(--mcb);
     color: white;
 }
 
