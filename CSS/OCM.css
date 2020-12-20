@@ -79,12 +79,14 @@
 
 .com {
     border-color: var(--mcb);
-    color: var(--mcb);
+    color: rgb(255,255,255);
+    background-color: var(--mcb);
 }
 
 .com:hover {
-    background-color: var(--mcb);
-    color: white;
+    background-color: rgb(255,255,255);
+    color: var(--mcb);
+    border-color: var(--mcb);
 }
 
 .ocm-center {
