@@ -39,7 +39,7 @@ body {
 }
 
 .navbar a {
-    float: left;
+   /* float: left; */
     display: block;
     color: rgb(250,250,250);
     text-align: center;
