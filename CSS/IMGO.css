@@ -1,5 +1,10 @@
 :root {
     --mcb: rgb(35,74,149);
+    --mcw: rgb(255,255,255);
+}
+
+.wc {
+    color: var(--mcw);
 }
 
 .container-o {
