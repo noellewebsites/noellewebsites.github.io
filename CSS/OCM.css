@@ -82,6 +82,7 @@
     /* color: rgb(255,255,255); */
     color: var(--mcb);
     /* background-color: var(--mcb); */
+    background-color: rgb(255, 255, 255);
 }
 
 .com:hover {
