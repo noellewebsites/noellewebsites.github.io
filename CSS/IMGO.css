@@ -56,10 +56,28 @@
 }
 
 /*Responsive About content */
+@media screen and (min-device-width: 350px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 17px;
+        padding: 2px 2px 2px 2px;
+    } 
+}
+
+/*Responsive About content */
 @media screen and (min-device-width: 600px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 18px;
+        font-size: 20px;
+        padding: 2px 2px 2px 2px;
+    } 
+}
+
+/*Responsive About content */
+@media screen and (min-device-width: 650px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 23px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -74,10 +92,28 @@
 }
 
 /*Responsive About content */
+@media screen and (min-device-width: 950px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 27px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
 @media screen and (min-device-width: 1000px) {
     .bt-o {
         color: rgb(255,255,255);
         font-size: 30px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (min-device-width: 1050px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 33px;
         padding: 2px 2px 2px 2px;
     }
 }
