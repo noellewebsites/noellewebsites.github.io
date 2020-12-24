@@ -40,6 +40,9 @@
     border: 2px solid var(--mcb);
 }
 
+.bt-o {
+    color: rgb(255,255,255);
+    
 /*Responsive About content */
 @media screen and (max-width: 300px) {
     .bt-o {
@@ -111,6 +114,9 @@
         padding: 2px 2px 2px 2px;
     }
 }
+
+.bth-o {
+    color: rgb(255,255,255);
 
 /*Responsive About Header */
 @media screen and (max-width: 300px) {
