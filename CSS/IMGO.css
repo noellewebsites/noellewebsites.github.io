@@ -40,15 +40,15 @@
     border: 2px solid var(--mcb);
 }
 
-.bt-o {
-    color: rgb(255,255,255);
-    
+
 /*Responsive About content */
 @media screen and (max-width: 300px) {
     .bt-o {
         color: rgb(255,255,255);
         font-size: 16px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -58,6 +58,8 @@
         color: rgb(255,255,255);
         font-size: 19px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -67,6 +69,8 @@
         color: rgb(255,255,255);
         font-size: 22px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -76,6 +80,8 @@
         color: rgb(255,255,255);
         font-size: 25px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -85,6 +91,8 @@
         color: rgb(255,255,255);
         font-size: 28px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -94,6 +102,8 @@
         color: rgb(255,255,255);
         font-size: 31px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -103,6 +113,8 @@
         color: rgb(255,255,255);
         font-size: 34px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -112,20 +124,12 @@
         color: rgb(255,255,255);
         font-size: 37px;
         padding: 2px 2px 2px 2px;
-    }
-}
-
-.bth-o {
-    color: rgb(255,255,255);
-
-/*Responsive About Header */
-@media screen and (max-width: 300px) {
-    .bth-o {
+    } else {
         color: rgb(255,255,255);
-        font-size: 19px;
-        padding: 2px 2px 2px 2px;
     }
 }
+
+
 
 /*Responsive About Header */
 @media screen and (max-width: 400px) {
@@ -133,6 +137,8 @@
         color: rgb(255,255,255);
         font-size: 22px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -151,6 +157,8 @@
         color: rgb(255,255,255);
         font-size: 28px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -160,6 +168,8 @@
         color: rgb(255,255,255);
         font-size: 31px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -169,6 +179,8 @@
         color: rgb(255,255,255);
         font-size: 34px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -178,6 +190,8 @@
         color: rgb(255,255,255);
         font-size: 37px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
@@ -187,6 +201,8 @@
         color: rgb(255,255,255);
         font-size: 40px;
         padding: 2px 2px 2px 2px;
+    } else {
+        color: rgb(255,255,255);
     }
 }
 
