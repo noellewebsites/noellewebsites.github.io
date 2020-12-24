@@ -59,7 +59,7 @@
 @media screen and (min-device-width: 350px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 17px;
+        font-size: 18px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -68,7 +68,7 @@
 @media screen and (min-device-width: 600px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 20px;
+        font-size: 21px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -77,7 +77,7 @@
 @media screen and (min-device-width: 650px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 23px;
+        font-size: 24px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -86,7 +86,7 @@
 @media screen and (min-device-width: 900px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 24px;
+        font-size: 25px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -95,7 +95,7 @@
 @media screen and (min-device-width: 950px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 27px;
+        font-size: 28px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -139,10 +139,28 @@
 }
 
 /*Responsive About Header */
+@media screen and (min-device-width: 350px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 20px;
+        padding: 2px 2px 2px 2px;
+    } 
+}
+
+/*Responsive About Header */
 @media screen and (min-device-width: 600px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 23px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (min-device-width: 650px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 26px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -157,10 +175,28 @@
 }
 
 /*Responsive About Header */
+@media screen and (min-device-width: 950px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 32px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
 @media screen and (min-device-width: 1000px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 35px;
+        padding: 2px 2px 2px 2px;
+    } 
+}
+
+/*Responsive About Header */
+@media screen and (min-device-width: 1050px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 38px;
         padding: 2px 2px 2px 2px;
     } 
 }
