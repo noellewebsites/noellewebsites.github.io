@@ -56,93 +56,57 @@
 }
 
 /*Responsive About content */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .bt-o {
+        color: rgb(255,255,255);
+        font-size: 18px;
+        padding: 2px 2px 2px 2px;
+    } 
+}
+
+/*Responsive About content */
+@media screen and (max-width: 700px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 24px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 900px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 30px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 1100px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 36px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+
+
+/*Responsive About Header */
+@media screen and (max-width: 300px) {
+    .bth-o {
         color: rgb(255,255,255);
         font-size: 17px;
         padding: 2px 2px 2px 2px;
     } 
 }
 
-/*Responsive About content */
-@media screen and (max-width: 500px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 20px;
-        padding: 2px 2px 2px 2px;
-    } 
-}
-
-/*Responsive About content */
-@media screen and (max-width: 600px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 23px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About content */
-@media screen and (max-width: 700px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 26px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About content */
-@media screen and (max-width: 800px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 29px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About content */
-@media screen and (max-width: 900px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 32px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About content */
-@media screen and (max-width: 1000px) {
-    .bt-o {
-        color: rgb(255,255,255);
-        font-size: 35px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-
-
-/*Responsive About Header */
-@media screen and (max-width: 400px) {
-    .bth-o {
-        color: rgb(255,255,255);
-        font-size: 20px;
-        padding: 2px 2px 2px 2px;
-    } 
-}
-
 /*Responsive About Header */
 @media screen and (max-width: 500px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 23px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About Header */
-@media screen and (max-width: 600px) {
-    .bth-o {
-        color: rgb(255,255,255);
-        font-size: 26px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -157,15 +121,6 @@
 }
 
 /*Responsive About Header */
-@media screen and (max-width: 800px) {
-    .bth-o {
-        color: rgb(255,255,255);
-        font-size: 32px;
-        padding: 2px 2px 2px 2px;
-    }
-}
-
-/*Responsive About Header */
 @media screen and (max-width: 900px) {
     .bth-o {
         color: rgb(255,255,255);
@@ -175,10 +130,10 @@
 }
 
 /*Responsive About Header */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 38px;
+        font-size: 41px;
         padding: 2px 2px 2px 2px;
     }
 }
