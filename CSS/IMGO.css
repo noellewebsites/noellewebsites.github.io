@@ -45,43 +45,35 @@
 @media screen and (max-width: 300px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 16px;
+        font-size: 14px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
-    }
+    } 
 }
 
 /*Responsive About content */
 @media screen and (max-width: 400px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 19px;
+        font-size: 17px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
-    }
+    } 
 }
 
 /*Responsive About content */
 @media screen and (max-width: 500px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 22px;
+        font-size: 20px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
-    }
+    } 
 }
 
 /*Responsive About content */
 @media screen and (max-width: 600px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 25px;
+        font-size: 23px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -89,10 +81,8 @@
 @media screen and (max-width: 700px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 28px;
+        font-size: 26px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -100,10 +90,8 @@
 @media screen and (max-width: 800px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 31px;
+        font-size: 29px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -111,10 +99,8 @@
 @media screen and (max-width: 900px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 34px;
+        font-size: 32px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -122,10 +108,8 @@
 @media screen and (max-width: 1000px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 37px;
+        font-size: 35px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -135,18 +119,16 @@
 @media screen and (max-width: 400px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 22px;
+        font-size: 20px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
-    }
+    } 
 }
 
 /*Responsive About Header */
 @media screen and (max-width: 500px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 25px;
+        font-size: 23px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -155,10 +137,8 @@
 @media screen and (max-width: 600px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 28px;
+        font-size: 26px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -166,10 +146,8 @@
 @media screen and (max-width: 700px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 31px;
+        font-size: 29px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -177,10 +155,8 @@
 @media screen and (max-width: 800px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 34px;
+        font-size: 32px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
@@ -188,21 +164,17 @@
 @media screen and (max-width: 900px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 37px;
+        font-size: 35px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
-    }
+    } 
 }
 
 /*Responsive About Header */
 @media screen and (max-width: 1000px) {
     .bth-o {
         color: rgb(255,255,255);
-        font-size: 40px;
+        font-size: 38px;
         padding: 2px 2px 2px 2px;
-    } else {
-        color: rgb(255,255,255);
     }
 }
 
