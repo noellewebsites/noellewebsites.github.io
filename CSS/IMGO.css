@@ -40,16 +40,148 @@
     border: 2px solid var(--mcb);
 }
 
-.bt-o {
-    color: rgb(255,255,255);
-    font-size: 16px;
-    padding: 2px 2px 2px 2px;
+/*Responsive About content */
+@media screen and (max-width: 300px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 16px;
+        padding: 2px 2px 2px 2px;
+    }
 }
 
-.bth-o {
-    color: rgb(255,255,255);
-    font-size: 19px;
-    padding: 2px 2px 2px 2px;
+/*Responsive About content */
+@media screen and (max-width: 400px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 19px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 500px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 22px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 600px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 25px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 700px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 28px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 800px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 31px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 900px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 34px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About content */
+@media screen and (max-width: 1000px) {
+    .bt-o {
+        color: rgb(255,255,255);
+        font-size: 37px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 300px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 19px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 400px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 22px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 500px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 25px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 600px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 28px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 700px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 31px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 800px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 34px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 900px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 37px;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+/*Responsive About Header */
+@media screen and (max-width: 1000px) {
+    .bth-o {
+        color: rgb(255,255,255);
+        font-size: 40px;
+        padding: 2px 2px 2px 2px;
+    }
 }
 
 .ss-image-zg {
