@@ -56,7 +56,7 @@
 }
 
 /*Responsive About content */
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 600px) {
     .bt-o {
         color: rgb(255,255,255);
         font-size: 18px;
@@ -65,7 +65,7 @@
 }
 
 /*Responsive About content */
-@media screen and (max-device-width: 700px) {
+@media screen and (max-device-width: 900px) {
     .bt-o {
         color: rgb(255,255,255);
         font-size: 24px;
@@ -74,7 +74,7 @@
 }
 
 /*Responsive About content */
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 1000px) {
     .bt-o {
         color: rgb(255,255,255);
         font-size: 30px;
@@ -103,7 +103,7 @@
 }
 
 /*Responsive About Header */
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 600px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 23px;
@@ -112,7 +112,7 @@
 }
 
 /*Responsive About Header */
-@media screen and (max-device-width: 700px) {
+@media screen and (max-device-width: 900px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 29px;
@@ -121,7 +121,7 @@
 }
 
 /*Responsive About Header */
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 1000px) {
     .bth-o {
         color: rgb(255,255,255);
         font-size: 35px;
