@@ -79,13 +79,16 @@
 
 .com {
     border-color: var(--mcb);
-    color: rgb(255,255,255);
-    background-color: var(--mcb);
+    /* color: rgb(255,255,255); */
+    color: var(--mcb);
+    /* background-color: var(--mcb); */
 }
 
 .com:hover {
-    background-color: rgb(255,255,255);
-    color: var(--mcb);
+    /* background-color: rgb(255,255,255); */
+    background-color: var(--mcb);
+    /* color: var(--mcb); */
+    color: rgb(255, 255, 255);
     border-color: var(--mcb);
 }
 
