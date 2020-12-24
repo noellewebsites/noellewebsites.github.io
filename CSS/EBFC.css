@@ -139,6 +139,10 @@ body {
     text-shadow: 1.25px 1.25px var(--bl);
 }
 
+.ts-mbl {
+    text-shadow: 1.25px 1.25px var(--bl);
+}
+
 p {
     text-align: center;
     color: rgb(0,0,0);
@@ -215,7 +219,7 @@ p {
 }
 
 .cr {
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
     text-align: center;
     font-size: 18px;
 }
