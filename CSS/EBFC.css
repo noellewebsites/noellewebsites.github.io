@@ -129,6 +129,7 @@ body {
 
 .r1-fb {
     z-index: 5;
+    float: right;
     display: block;
     text-align: center;
     font-size: 30px;
