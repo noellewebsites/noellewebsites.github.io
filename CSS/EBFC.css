@@ -127,6 +127,14 @@ body {
     font-size: 20px;
 }
 
+.r1-fb {
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 30px;
+}
+
 .h {
     text-align: center;
     color: rgb(250,250,250);
