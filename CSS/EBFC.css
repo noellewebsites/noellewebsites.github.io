@@ -94,11 +94,11 @@ body {
 
 /* Facebook button settings */
 .fa {
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 3px 2px;
 }
 
 .fa:hover {
