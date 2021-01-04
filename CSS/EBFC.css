@@ -135,6 +135,18 @@ body {
     font-size: 30px;
 }
 
+.centered-d {
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+    }
+    
+    .containers {
+    width:100px;
+    height:100px;
+    }
+
 .h {
     text-align: center;
     color: rgb(250,250,250);
