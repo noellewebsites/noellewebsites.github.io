@@ -2,6 +2,7 @@
     --mcb: rgb(35,74,149);
 }
 
+/* Classes Menu Settings */
 .overlay-cm {
     height:100%;
     width: 0;
@@ -58,6 +59,60 @@
     cursor: pointer;
 }
 
+/* Services Menu Settings */
+.overlay-cm-services {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-cm-services-content {
+    position: relative;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.overlay-cm-services a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-cm-services a:hover, .overlay-cm-services a :focus {
+    color: #f1f1f1;
+}
+
+.overlay-cm-services .closebtn-services {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay-cm-services {
+        overflow-y: auto;
+    }
+    .overlay-cm-services a {
+        font-size: 20px;
+    }
+    .overlay-cm-services .closebtn-services {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
 
 .btnc {
     background-color: rgb(83,98,184);
