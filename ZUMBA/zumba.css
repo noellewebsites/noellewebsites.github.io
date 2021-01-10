@@ -104,10 +104,28 @@ body {
 }
 
 .cad-packages-info {
-    font-size: 22px;
+    font-size: 21px;
     color:rgb(255,255,255);
     text-align: center;
     display: block;
+}
+
+.cad-packages-subtitle {
+    font-size: 25px;
+    color:rgb(255,255,255);
+    text-align: center;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cad-packages-subtitle-2 {
+    font-size: 21px;
+    color:rgb(255,255,255);
+    text-align: center;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .zl-1 {
