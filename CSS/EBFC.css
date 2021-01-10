@@ -179,13 +179,13 @@ body {
     text-shadow: 1.25px 1.25px var(--bl);
 }
 
-p {
+/*p {
     text-align: center;
     color: rgb(0,0,0);
     font-size: 22px;
     padding: 2px 2px 2px 2px;
     z-index: 6;
-}
+}*/
 
 .abp {
     float: right;
