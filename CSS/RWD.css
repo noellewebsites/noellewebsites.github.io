@@ -53,3 +53,9 @@
         width: 100%;
     }
 }
+
+/* Center div*/
+.cdiv {
+    margin-left: auto;
+    margin-right: auto;
+}
