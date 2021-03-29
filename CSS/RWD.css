@@ -69,3 +69,10 @@
     text-align: center;
     height: auto;
 }
+
+/* Animate.style settings */
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__zoomInUp {
+    --animate-duration: 1.25s;
+  }
