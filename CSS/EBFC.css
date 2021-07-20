@@ -113,6 +113,10 @@ body {
     margin-right: auto;
 }
 
+.mt-hr {
+    width: 65%;
+}
+
 /* Facebook button settings */
 .fa {
     padding: 5px;
