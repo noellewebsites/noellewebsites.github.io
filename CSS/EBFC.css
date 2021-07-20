@@ -103,6 +103,10 @@ body {
     border-radius: 5px;
 }
 
+.mt-img {
+    width: 65%;
+}
+
 /* Facebook button settings */
 .fa {
     padding: 5px;
