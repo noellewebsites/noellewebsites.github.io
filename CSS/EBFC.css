@@ -136,6 +136,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    border-radius: 5px;
+    height: auto;
+    display: block;
 }
 
 .r1-fb {
