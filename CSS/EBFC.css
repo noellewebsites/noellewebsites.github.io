@@ -127,6 +127,10 @@ body {
     width: 50%;
 }
 
+iframe {
+    border-radius: 5px;
+}
+
 /* Facebook button settings */
 .fa {
     padding: 5px;
