@@ -29,6 +29,7 @@ body {
 .background-description {
     background-color: var(--mcb);
     border-radius: 5px;
+    padding: 5px;
 }
 
 @keyframes gradient {
