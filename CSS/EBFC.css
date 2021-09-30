@@ -26,6 +26,11 @@ body {
     z-index:-2;
 }
 
+.background-description {
+    background-color: var(--mcb);
+    border-radius: 5px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
