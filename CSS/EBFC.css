@@ -3,6 +3,17 @@
     --bl: rgb(0,0,0);
 }
 
+/* Make scroll behavior smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove text decoration for all hyperlinks */
+
+a {
+    text-decoration: none;
+}
+
 /* Background animation */
 /* #e73c73, */
 body {
