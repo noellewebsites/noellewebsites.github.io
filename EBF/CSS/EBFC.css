@@ -54,7 +54,7 @@ body {
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
     @media screen and (max-width: 800px) {
         .tik-tok-video {
             width: 44.5%;
@@ -62,7 +62,7 @@ body {
     }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
     @media screen and (max-width: 1000px) {
         .tik-tok-video {
             width: 34.5%;
@@ -70,7 +70,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1000px) {
     @media screen and (max-width: 1200px) {
         .tik-tok-video {
             width: 30%;
@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
     @media screen and (max-width: 1400px) {
         .tik-tok-video {
             width: 24%;
@@ -86,7 +86,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1400px) {
     @media screen and (max-width: 1600px) {
         .tik-tok-video {
             width: 20.5%;
@@ -94,7 +94,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1601px) {
+@media screen and (min-width: 1600px) {
     .tik-tok-video {
         width: 25%;
     }
