@@ -100,6 +100,56 @@ body {
     }
 }
 
+.coh-ul {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  /*  font-variant: small-caps; */
+}
+
+.coh-ul a {
+    color: var(--mcb);
+}
+
+.coh-ul li::marker {
+    color:var(--mcb);
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .coh-ul {
+            width: 97.5%;
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    @media screen and (max-width: 1000px) {
+      .coh-ul {
+          width: 96%;
+          font-size: 26px;
+      }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    @media screen and (max-width: 1300px) {
+      .coh-ul {
+          width: 96%;
+          font-size: 30px;
+      }
+    }
+}
+
+@media screen and (min-width: 1301px) {
+  .coh-ul {
+      width: 96%;
+      font-size: 34px;
+  }
+}
+
 .background-description {
     background-color: var(--mcb);
     border-radius: 5px;
