@@ -73,14 +73,22 @@ body {
 @media screen and (min-width: 1001px) {
     @media screen and (max-width: 1200px) {
         .tik-tok-video {
-            width: 55%;
+            width: 50%;
         }
     }
 }
 
 @media screen and (min-width: 1201px) {
+    @media screen and (max-width: 1400px) {
+        .tik-tok-video {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (min-width: 1401px) {
     .tik-tok-video {
-        width: 50%;
+        width: 35%;
     }
 }
 
