@@ -696,7 +696,7 @@ iframe {
 @media screen and (min-device-width: 350px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 18px;
+        font-size: 15px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -705,7 +705,7 @@ iframe {
 @media screen and (min-device-width: 600px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 21px;
+        font-size: 16px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -714,7 +714,7 @@ iframe {
 @media screen and (min-device-width: 650px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 22px;
+        font-size: 17px;
         padding: 2px 2px 2px 2px;
     } 
 }
@@ -723,7 +723,7 @@ iframe {
 @media screen and (min-device-width: 900px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 23px;
+        font-size: 18px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -732,7 +732,7 @@ iframe {
 @media screen and (min-device-width: 950px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 24px;
+        font-size: 19px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -741,7 +741,7 @@ iframe {
 @media screen and (min-device-width: 1000px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 25px;
+        font-size: 20px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -750,7 +750,7 @@ iframe {
 @media screen and (min-device-width: 1050px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 26px;
+        font-size: 21px;
         padding: 2px 2px 2px 2px;
     }
 }
@@ -759,7 +759,7 @@ iframe {
 @media screen and (min-device-width: 1100px) {
     .bt-o {
         color: rgb(255,255,255);
-        font-size: 27px;
+        font-size: 22px;
         padding: 2px 2px 2px 2px;
     }
 }
