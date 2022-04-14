@@ -1231,3 +1231,10 @@ body {
 .animate__animated.animate__zoomInUp {
     --animate-duration: 1.33s;
   }
+
+  /* Inline display layout*/
+  .inline-class-display {
+      display: inline;
+      margin-left: auto;
+      margin-right: auto;
+  }
