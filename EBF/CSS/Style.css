@@ -250,6 +250,11 @@ body {
    /* font-size: 25px;*/
 }
 
+.fixed-navbar-icon {
+    display: none;
+}
+
+
 @media screen and (max-width: 1000px) {
     .fixed-navbar-icon {
        display: block;
