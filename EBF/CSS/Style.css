@@ -72,7 +72,7 @@ body {
         border-radius: 7px;
         height: auto;
         float: left;
-        width: 25%;
+        width: 30%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -80,7 +80,7 @@ body {
       }
     
       .logo-display-img:hover {
-          width: 27%;
+          width: 32%;
           transition: all .25s;
       }
     }
@@ -106,14 +106,14 @@ body {
         height: auto;
         text-align: center;
         display: inline-block;
-        width: 38%;
+        width: 43%;
         float: none;
         border-radius: 3px;
         position: relative;
     }
 
     .logo-display-img:hover {
-        width: 41%;
+        width: 46%;
         transition: all .25s;
     }
   }
@@ -140,14 +140,14 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 37%;
+            width: 42%;
             float: none;
             border-radius: 3px;
             position: relative;
         }
 
         .logo-display-img:hover {
-            width: 39%;
+            width: 44%;
             transition: all .25s;
         }
     }
@@ -175,14 +175,14 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 33%;
+            width: 38%;
             float: none;
             border-radius: 3px;
             position: relative;
         }
 
         .logo-display-img:hover {
-            width: 35%;
+            width: 40%;
             transition: all .25s;
         }
     }
@@ -208,14 +208,14 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 29%;
+            width: 34%;
             float: none;
             border-radius: 3px;
             position: relative;
         }
 
         .logo-display-img:hover {
-            width: 31%;
+            width: 36%;
             transition: all .25s;
         }
     }
