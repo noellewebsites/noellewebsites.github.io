@@ -1,6 +1,10 @@
 :root {
     --mcb: #234a95;
     --bl: rgb(0,0,0);
+    --blissfulGlowPink: #dabcbd;
+    --blissfulGlowMaroon: #734244;
+    --blissfulGlowTeal: #b2e4df;
+    --blissfulGlowGrey: #758383;
 }
 
 /* Make scroll behavior smooth */

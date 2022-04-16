@@ -5,6 +5,7 @@
     --studioYellow: #f5da35;
     --bsb: rgba(0, 0, 0, 0.397);
     --White:rgb(255,255,255);
+    
 }
 
 /* Make scroll behavior smooth */
@@ -509,7 +510,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .brandy-img {
-            width: 54.5%;
+            width: 94.5%;
         }
     }
 }
@@ -564,11 +565,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background: linear-gradient(var(--blissfulGlowgrey),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
 }
 
 .blissful-glow-container p {
     overflow-y: auto;
     color: var(--White);
     text-shadow: 1px 2px 2px var(--bsb);
-    font-size: 20px;
+    font-size: 22px;
 }
