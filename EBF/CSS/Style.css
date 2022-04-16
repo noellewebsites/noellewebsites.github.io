@@ -630,6 +630,10 @@ body {
             width: 91%;
             display: block;
         }
+
+        .extra-spacing {
+            display: block;
+        }
     }
 }
 
@@ -637,6 +641,10 @@ body {
     .blissful-glow-container a {
         width: 18%;
         display: inline-block;
+    }
+
+    .extra-spacing {
+        display: none;
     }
 }
 
