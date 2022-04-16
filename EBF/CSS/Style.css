@@ -625,28 +625,10 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1000px) {
         .blissful-glow-container a {
             width: 81%;
             display: block;
-        }
-    }
-}
-
-@media screen and (min-width: 600px) {
-    @media screen and (max-width: 800px ) {
-        .blissful-glow-container a {
-            width: 24%;
-            display: inline-block;
-        }
-    }
-}
-
-@media screen and (min-width: 800px) {
-    @media screen and (max-width: 1000px ) {
-        .blissful-glow-container a {
-            width: 22%;
-            display: inline-block;
         }
     }
 }
