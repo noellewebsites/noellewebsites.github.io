@@ -3,6 +3,7 @@
     --bl: rgb(0,0,0);
     --mainGrey: #989898;
     --studioYellow: #f5da35;
+    --bsb: rgba(0, 0, 0, 0.397);
 }
 
 /* Make scroll behavior smooth */
@@ -232,7 +233,7 @@ body {
     box-shadow: var(--bsb);
     vertical-align: bottom;
     font-weight: bold;
-    font-family: 'Antonio';
+   /* font-family: 'Antonio'; */
 }
 
 .fixed-navbar-items:hover {
