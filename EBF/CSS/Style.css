@@ -227,9 +227,9 @@ body {
     float: left;
     text-align: center;
     color: var(--White);
-    padding: 15px 33px;
+    padding: 10px 28px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
@@ -321,9 +321,9 @@ body {
     padding: 8px;
     text-align: center;
     color: var(--White);
-    padding: 13px 15px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 17x;
+    font-size: 16x;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: block;
