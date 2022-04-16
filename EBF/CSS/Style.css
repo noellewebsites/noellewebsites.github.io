@@ -572,11 +572,12 @@ body {
 }
 
 .blissful-glow-container {
-    z-index: 2;
+    z-index: 4;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: linear-gradient(-180deg,var(--blissfulGlowgrey),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
+    background: linear-gradient(var(--blissfulGlowgrey),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
+    display: block;
 }
 
 .blissful-glow-container p {
@@ -584,5 +585,15 @@ body {
     color: var(--White);
     text-shadow: 1px 2px 2px var(--bsb);
     font-size: 24px;
-    background-color: none;
+}
+
+.blissful-glow-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--White);
+    text-shadow: 1px 2px 2px var(--bsb);
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
