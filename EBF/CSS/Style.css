@@ -623,6 +623,7 @@ body {
 .blissful-glow-container a:hover {
     font-size: 19px;
     transition: 0.25s ease-out;
+    color: var(--studioYellow);
 }
 
 @media screen and (min-width: 1px) {
