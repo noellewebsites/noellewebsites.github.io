@@ -509,6 +509,7 @@ body {
 .brandy-img {
     height: auto;
     float: left;
+    box-shadow: 1px 2px var(--bsb);
 }
 
 @media screen and (min-width: 1px) {
