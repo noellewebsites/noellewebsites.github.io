@@ -616,5 +616,10 @@ body {
     background-color: var(--mcb);
     border-radius: 2px;
     font-weight: bold;
-    padding: 5px;
+    padding: 7px;
+    font-variant: small-caps;
+}
+
+.blissful-glow-container a:hover {
+    font-size: 27px;
 }
