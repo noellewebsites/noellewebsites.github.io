@@ -580,8 +580,18 @@ body {
 }
 
 .gradient-container {
-    background: linear-gradient(var(--blissfulGlowgrey),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
+    background: linear-gradient(var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     display: block;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
     z-index: 6;
 }
 
