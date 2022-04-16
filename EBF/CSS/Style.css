@@ -524,7 +524,7 @@ body {
     @media screen and (max-width: 800px) {
         .brandy-img {
             width: 44.5%;
-            padding: 2px;
+            padding: 4px;
         }
     }
 }
@@ -533,7 +533,7 @@ body {
     @media screen and (max-width: 1000px) {
         .brandy-img {
             width: 34.5%;
-            padding: 2px;
+            padding: 4px;
         }
     }
 }
@@ -542,7 +542,7 @@ body {
     @media screen and (max-width: 1200px) {
         .brandy-img {
             width: 30%;
-            padding: 2px;
+            padding: 4px;
         }
     }
 }
@@ -551,7 +551,7 @@ body {
     @media screen and (max-width: 1400px) {
         .brandy-img {
             width: 24%;
-            padding: 2px;
+            padding: 4px;
         }
     }
 }
@@ -560,7 +560,7 @@ body {
     @media screen and (max-width: 1600px) {
         .brandy-img {
             width: 20.5%;
-            padding: 2px;
+            padding: 4px;
         }
     }
 }
@@ -568,7 +568,7 @@ body {
 @media screen and (min-width: 1600px) {
     .brandy-img {
         width: 25%;
-        padding: 2px;
+        padding: 4px;
     }
 }
 
@@ -581,7 +581,7 @@ body {
 }
 
 .gradient-container {
-    background: linear-gradient(var(--White),var(--blissfulGlowMaroon),var(--blissfulGlowPink),var(--blissfulGlowTeal));
+    background: linear-gradient(var(--White),var(--blissfulGlowMaroon),var(--blissfulGlowGrey));
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -594,7 +594,7 @@ body {
     width: 100%;
     max-width: 100%;
     /*z-index: 1;*/
-    padding: 2px;
+    padding: 4px;
 }
 
 .blissful-glow-container p {
