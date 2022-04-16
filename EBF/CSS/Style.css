@@ -592,7 +592,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 100%;
-    z-index: 6;
+    z-index: 2;
     padding: 2px;
 }
 
@@ -622,4 +622,7 @@ body {
 
 .blissful-glow-container a:hover {
     font-size: 27px;
+    transition: 0.25s ease-out;
 }
+
+
