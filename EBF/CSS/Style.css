@@ -615,7 +615,7 @@ body {
     background-color: var(--mcb);
     border-radius: 2px;
     font-weight: bold;
-    padding: 7px;
+    padding: 8px;
     font-variant: small-caps;
 }
 
@@ -634,10 +634,27 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-    .blissful-glow-container a {
-        width: 18%;
-        display: inline-block;
+    @media screen and (max-width: 800px ) {
+        .blissful-glow-container a {
+            width: 25%;
+            display: inline-block;
+        }
     }
 }
 
+@media screen and (min-width: 800px) {
+    @media screen and (max-width: 1000px ) {
+        .blissful-glow-container a {
+            width: 23%;
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .blissful-glow-container a {
+        width: 22%;
+        display: inline-block;
+    }
+}
 
