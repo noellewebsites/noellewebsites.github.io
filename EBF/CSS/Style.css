@@ -225,7 +225,7 @@ body {
     float: left;
     text-align: center;
     color: var(--White);
-    padding: 8px 20px;
+    padding: 10px 22px;
     text-decoration: none;
     font-size: 15px;
     background-size: 0% 100%;
@@ -499,4 +499,76 @@ body {
 
 .box-shadow-img{
     max-width: 1080px;
+}
+
+.brandy-img {
+    height: auto;
+    float: left;
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 600px) {
+        .brandy-img {
+            width: 54.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    @media screen and (max-width: 800px) {
+        .brandy-img {
+            width: 44.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    @media screen and (max-width: 1000px) {
+        .brandy-img {
+            width: 34.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    @media screen and (max-width: 1200px) {
+        .brandy-img {
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    @media screen and (max-width: 1400px) {
+        .brandy-img {
+            width: 24%;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    @media screen and (max-width: 1600px) {
+        .brandy-img {
+            width: 20.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .brandy-img {
+        width: 25%;
+    }
+}
+
+.blissful-glow-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blissful-glow-container p {
+    overflow-y: auto;
+    color: var(--White);
+    text-shadow: 1px 2px 2px var(--bsb);
+    font-size: 20px;
 }
