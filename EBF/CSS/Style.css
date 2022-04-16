@@ -580,7 +580,7 @@ body {
 }
 
 .gradient-container {
-    background: linear-gradient(var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
+    background: linear-gradient(var(--White),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink));
     margin-left: auto;
     margin-right: auto;
     text-align: center;
