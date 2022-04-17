@@ -594,6 +594,7 @@ body {
 .blissful-glow-container p {
     overflow-y: auto;
     color: var(--bl);
+    text-align: center;
     /*text-shadow: 2px 2px 2px var(--bsb);*/
 }
 
