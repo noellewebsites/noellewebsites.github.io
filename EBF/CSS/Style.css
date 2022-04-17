@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    background-color: var(--mainGrey);
+    background-color: var(--White);
 }
 
 
@@ -593,8 +593,8 @@ body {
 
 .blissful-glow-container p {
     overflow-y: auto;
-    color: var(--White);
-    text-shadow: 2px 2px 2px var(--bsb);
+    color: var(--bl);
+    /*text-shadow: 2px 2px 2px var(--bsb);*/
 }
 
 .blissful-glow-container a {
