@@ -602,7 +602,7 @@ body {
     text-decoration: none;
     color: var(--White);
     text-shadow: 1px 2px 2px var(--bsb);
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -614,7 +614,7 @@ body {
 }
 
 .blissful-glow-container a:hover {
-    font-size: 19px;
+    font-size: 18px;
     transition: 0.25s ease-out;
     color: var(--studioYellow);
 }
@@ -638,7 +638,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     .blissful-glow-container a {
-        width: 18%;
+        width: 16%;
         display: inline-block;
     }
 
