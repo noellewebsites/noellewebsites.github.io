@@ -674,7 +674,7 @@ body {
 }
 
 .cr {
-    color: rgb(255,255,255);
+    color: var(--bl);
     text-align: center;
     font-size: 18px;
 }
