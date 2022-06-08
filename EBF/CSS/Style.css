@@ -739,3 +739,72 @@ body {
     height: auto;
     display: inline-block;
 }
+
+/*Tik Tok Video Settings*/
+.tik-tok-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.tik-tok-video {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 600px) {
+        .tik-tok-video {
+            width: 54.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    @media screen and (max-width: 800px) {
+        .tik-tok-video {
+            width: 44.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    @media screen and (max-width: 1000px) {
+        .tik-tok-video {
+            width: 34.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    @media screen and (max-width: 1200px) {
+        .tik-tok-video {
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    @media screen and (max-width: 1400px) {
+        .tik-tok-video {
+            width: 24%;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    @media screen and (max-width: 1600px) {
+        .tik-tok-video {
+            width: 20.5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .tik-tok-video {
+        width: 25%;
+    }
+}
