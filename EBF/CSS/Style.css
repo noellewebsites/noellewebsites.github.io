@@ -702,6 +702,15 @@ body {
     font-weight: bold;
 }
 
+.page-display-img-text-p {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bsb) 2px;
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .extra-spacing {
@@ -760,6 +769,10 @@ body {
         .tik-tok-video {
             width: 54.5%;
         }
+
+        .page-display-img-text-p {
+            font-size: 30px;
+        }
     }
 }
 
@@ -767,6 +780,10 @@ body {
     @media screen and (max-width: 800px) {
         .tik-tok-video {
             width: 44.5%;
+        }
+
+        .page-display-img-text-p {
+            font-size: 32px;
         }
     }
 }
@@ -776,6 +793,10 @@ body {
         .tik-tok-video {
             width: 34.5%;
         }
+
+        .page-display-img-text-p {
+            font-size: 34px;
+        }
     }
 }
 
@@ -783,6 +804,10 @@ body {
     @media screen and (max-width: 1200px) {
         .tik-tok-video {
             width: 30%;
+        }
+
+        .page-display-img-text-p {
+            font-size: 36px;
         }
     }
 }
@@ -792,6 +817,10 @@ body {
         .tik-tok-video {
             width: 24%;
         }
+
+        .page-display-img-text-p {
+            font-size: 38px;
+        }
     }
 }
 
@@ -800,11 +829,19 @@ body {
         .tik-tok-video {
             width: 20.5%;
         }
+
+        .page-display-img-text-p {
+            font-size: 40px;
+        }
     }
 }
 
 @media screen and (min-width: 1600px) {
     .tik-tok-video {
         width: 25%;
+    }
+
+    .page-display-img-text-p {
+        font-size: 42px;
     }
 }
