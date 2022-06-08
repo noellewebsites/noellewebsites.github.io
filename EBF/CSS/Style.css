@@ -9,6 +9,8 @@
     --blissfulGlowMaroon: #734244;
     --blissfulGlowTeal: #b2e4df;
     --blissfulGlowGrey: #758383;
+    --EBFGrey: #989898;
+
     
 }
 
@@ -19,7 +21,7 @@ html {
 
 body {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    background-color: var(--White);
+    background-color: var(--EBFGrey);
 }
 
 
@@ -690,6 +692,16 @@ body {
     text-shadow: var(--bsb) 2px;
 }
 
+.page-display-img-text-h {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bsb) 2px;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .extra-spacing {
@@ -698,6 +710,10 @@ body {
 
         .page-display-img-text {
             font-size: 26px;
+        }
+
+        .page-display-img-text-h {
+            font-size: 36px;
         }
     }
 }
@@ -709,6 +725,10 @@ body {
 
     .page-display-img-text {
         font-size: 28px;
+    }
+
+    .page-display-img-text-h {
+        font-size: 38px;
     }
 
 }
