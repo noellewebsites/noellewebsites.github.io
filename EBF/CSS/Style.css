@@ -702,7 +702,7 @@ body {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bsb) 2px;
+    text-shadow: var(--bl) 2px 2px 2px;
     font-weight: bold;
 }
 
