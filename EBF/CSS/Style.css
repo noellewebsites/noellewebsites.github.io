@@ -780,7 +780,7 @@ body {
                 .page-display-img-text-bb {
                     font-size: 30px;
                     position: relative;
-                    top: 30%;
+                    top: 20%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
@@ -800,7 +800,7 @@ body {
                 .page-display-img-text-bb {
                     font-size: 32px;
                     position: relative;
-                    top: 30%;
+                    top: 20%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
@@ -817,7 +817,7 @@ body {
     .page-display-img-text-bb {
         font-size: 35px;
         position: relative;
-        top: 30%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
