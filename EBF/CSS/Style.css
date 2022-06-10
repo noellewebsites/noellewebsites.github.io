@@ -765,7 +765,7 @@ body {
         @media screen and (min-height: 650px) {
             @media screen and (max-height: 1100px) {
                 .page-display-vid-container {
-                    width: 33%;
+                    width: 36%;
                 }
             }
         }
