@@ -734,10 +734,6 @@ body {
     text-align: center;
     color: var(--White);
     text-shadow: var(--bl) 2px 2px 2px;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .page-display-img-text-c {
@@ -783,6 +779,10 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 30px;
+                    position: relative;
+                    top: 30%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
         }
@@ -799,6 +799,10 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 32px;
+                    position: relative;
+                    top: 30%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
         }
@@ -812,6 +816,10 @@ body {
 
     .page-display-img-text-bb {
         font-size: 35px;
+        position: relative;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
