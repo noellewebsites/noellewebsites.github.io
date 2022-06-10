@@ -761,9 +761,21 @@ body {
 }
 
 @media screen and (min-width: 500px) {
+    @media screen and (max-width: 1100px) {
         @media screen and (min-height: 650px) {
-            .page-display-vid-container {
-                width: 30%;
+            @media screen and (max-height: 1100px) {
+                .page-display-vid-container {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    @media screen and (min-height: 650px) {
+        .page-display-vid-container {
+            width: 28%;
         }
     }
 }
