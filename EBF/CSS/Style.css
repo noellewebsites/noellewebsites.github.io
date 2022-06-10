@@ -760,9 +760,9 @@ body {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 650px) {
     @media screen and (max-width: 1200px) {
-        @media screen and (min-height: 650px) {
+        @media screen and (min-height: 700px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
                     width: 50%;
@@ -772,8 +772,8 @@ body {
     }
 }
 
-@media screen and (min-width: 650px) {
-    @media screen and (min-height: 650px) {
+@media screen and (min-width: 1200px) {
+    @media screen and (min-height: 700px) {
         .page-display-vid-container {
             width: 24%;
         }
