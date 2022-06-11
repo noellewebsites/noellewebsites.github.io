@@ -810,8 +810,8 @@ body {
 
                 .page-display-img-text-2 {
                     position: relative;
-                    top: 25%;
-                    left: 50%;
+                    top: 15%;
+                    left: 15%;
                     transform: translate(-50%, -50%);
                 }
 
