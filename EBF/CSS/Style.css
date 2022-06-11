@@ -840,7 +840,7 @@ body {
         position: relative;
         top: 10%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -65%);
     }
 
     .page-display-img-text-bb2 {
@@ -947,7 +947,7 @@ body {
         }
 
         .page-display-img-text-p {
-            font-size: 31px;
+            font-size: 25px;
         }
     }
 }
@@ -959,7 +959,7 @@ body {
         }
 
         .page-display-img-text-p {
-            font-size: 37px;
+            font-size: 26px;
         }
     }
 }
@@ -971,7 +971,7 @@ body {
         }
 
         .page-display-img-text-p {
-            font-size: 39px;
+            font-size: 27px;
         }
     }
 }
@@ -982,6 +982,6 @@ body {
     }
 
     .page-display-img-text-p {
-        font-size: 41px;
+        font-size: 28px;
     }
 }
