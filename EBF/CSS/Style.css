@@ -802,10 +802,10 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 30px;
-                    position: relative;
+                 /*   position: relative;
                     top: 25%;
                     left: 50%;
-                    transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%); */
                 }
 
                 .page-display-img-text-2 {
@@ -833,10 +833,10 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 32px;
-                    position: relative;
+                 /*   position: relative;
                     top: 20%;
                     left: 50%;
-                    transform: translate(-50%, -60%);
+                    transform: translate(-50%, -60%); */
                 }
 
                 .page-display-img-text-2 {
@@ -861,10 +861,10 @@ body {
 
     .page-display-img-text-bb {
         font-size: 35px;
-        position: relative;
+       /* position: relative;
         top: 5%;
         left: 50%;
-        transform: translate(-50%, -95%);
+        transform: translate(-50%, -95%); */
     }
 
     .page-display-img-text-2 {
