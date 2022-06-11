@@ -869,9 +869,9 @@ body {
 
     .page-display-img-text-2 {
         position: relative;
-        top: 25%;
-        left: 2%;
-        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 12%;
+        transform: translate(-50%, -60%);
     }
 
     .page-display-img-text-bb2 {
