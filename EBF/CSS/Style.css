@@ -707,7 +707,7 @@ body {
     text-align: center;
     color: var(--White);
     text-shadow: var(--bl) 2px 2px 2px;
-    position: relative;
+   /* position: relative; */
 }
 
 .page-display-img-text-h {
@@ -811,6 +811,7 @@ body {
                 .page-display-img-text-2 {
                     position: relative;
                     top: 15%;
+                    bottom: 15%;
                  /*   left: 15%;
                     transform: translate(-50%, -50%); */
                 }
@@ -840,8 +841,9 @@ body {
                 }
 
                 .page-display-img-text-2 {
-                    position: relative;
+                  /*  position: relative; */
                     top: 25%;
+                    bottom: 25%;
                    /* left: 50%; 
                     transform: translate(-50%, -50%);*/
                 }
@@ -868,8 +870,9 @@ body {
     }
 
     .page-display-img-text-2 {
-        position: relative;
+       /* position: relative; */
         top: 15%;
+        bottom: 15%;
        /* left: 21%;
         transform: translate(-50%, -50%); */
     }
