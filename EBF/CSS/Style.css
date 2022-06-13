@@ -810,7 +810,7 @@ body {
 
                 .page-display-img-text-2 {
                   /*  position: relative;*/
-                    margin-top: 15%;
+                    margin-bottom: 15px;
                    /* bottom: 15%;*/
                  /*   left: 15%;
                     transform: translate(-50%, -50%); */
@@ -842,7 +842,7 @@ body {
 
                 .page-display-img-text-2 {
                   /*  position: relative; */
-                    margin-top: 25%;
+                    margin-bottom: 25px;
                    /* bottom: 25%; */
                    /* left: 50%; 
                     transform: translate(-50%, -50%);*/
@@ -871,7 +871,7 @@ body {
 
     .page-display-img-text-2 {
        /* position: relative; */
-        margin-top: 15%;
+        margin-bottom: 15px;
        /* bottom: 15%; */
        /* left: 21%;
         transform: translate(-50%, -50%); */
