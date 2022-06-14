@@ -782,6 +782,7 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 27px;
+                    margin-bottom: 15px;
                 }
 
                 .page-display-img-text-bb2 {
@@ -803,6 +804,7 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 30px;
+                    margin-bottom: 15px;
                  /*   position: relative;
                     top: 25%;
                     left: 50%;
@@ -836,6 +838,7 @@ body {
 
                 .page-display-img-text-bb {
                     font-size: 32px;
+                    margin-bottom: 25px;
                  /*   position: relative;
                     top: 20%;
                     left: 50%;
@@ -866,6 +869,7 @@ body {
 
     .page-display-img-text-bb {
         font-size: 35px;
+        margin-bottom: 15px;
        /* position: relative;
         top: 5%;
         left: 50%;
