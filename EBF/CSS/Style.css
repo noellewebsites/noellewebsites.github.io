@@ -789,7 +789,7 @@ body {
 
 .page-display-img-text-bb {
     display: inline-block;
-    margin: 10 auto;
+    margin: 15 auto;
     height: auto;
     text-align: center;
     color: var(--White);
@@ -832,7 +832,7 @@ body {
                 }
 
                 .page-display-img-text-bb {
-                    font-size: 27px;
+                    font-size: 29px;
                     margin-bottom: 50px;
                 }
 
@@ -875,7 +875,7 @@ body {
                 }
 
                 .page-display-img-text-bb {
-                    font-size: 30px;
+                    font-size: 32px;
                     margin-bottom: 50px;
                  /*   position: relative;
                     top: 25%;
@@ -930,7 +930,7 @@ body {
                 }
 
                 .page-display-img-text-bb {
-                    font-size: 32px;
+                    font-size: 34px;
                     margin-bottom: 55px;
                  /*   position: relative;
                     top: 20%;
@@ -964,7 +964,7 @@ body {
     }
 
     .page-display-img-text-bb {
-        font-size: 35px;
+        font-size: 37px;
         margin-bottom: 50px;
        /* position: relative;
         top: 5%;
