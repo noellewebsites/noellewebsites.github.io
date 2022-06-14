@@ -789,7 +789,7 @@ body {
 
 .page-display-img-text-bb {
     display: inline-block;
-    margin: 15 auto;
+    margin: 18 auto;
     height: auto;
     text-align: center;
     color: var(--White);
@@ -926,7 +926,7 @@ body {
         @media screen and (min-height: 700px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
-                    width: 46%;
+                    width: 43%;
                 }
 
                 .page-display-img-text-bb {
