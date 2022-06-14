@@ -710,6 +710,56 @@ body {
    /* position: relative; */
 }
 
+.page-display-img-text-2A {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+   /* position: relative; */
+}
+
+.page-display-img-text-2B {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+   /* position: relative; */
+}
+
+.page-display-img-text-2C {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+   /* position: relative; */
+}
+
+.page-display-img-text-2D {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+   /* position: relative; */
+}
+
+.page-display-img-text-2E {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+   /* position: relative; */
+}
+
 .page-display-img-text-h {
     display: inline-block;
     margin: 0 auto;
@@ -772,6 +822,7 @@ body {
     text-align: center;
 }
 
+/* Vertical Phone Settings */
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 500px) {
         @media screen and (min-height: 1px) {
@@ -789,11 +840,32 @@ body {
                     font-size: 27px;
                     margin-bottom: 15px;
                 }
+
+                .page-display-img-text-2A {
+                    display: none;
+                }
+
+                .page-display-img-text-2B {
+                    display: none;
+                }
+
+                .page-display-img-text-2C {
+                    display: none;
+                }
+
+                .page-display-img-text-2D {
+                    display: none;
+                }
+
+                .page-display-img-text-2E {
+                    display: none;
+                }
             }
         }
     }
 }
 
+/* Horizontal Phone Settings */
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 850px) {
         @media screen and (min-height: 1px) {
@@ -819,6 +891,26 @@ body {
                     transform: translate(-50%, -50%); */
                 }
 
+                .page-display-img-text-2A {
+                    display: none;
+                }
+
+                .page-display-img-text-2B {
+                    display: none;
+                }
+
+                .page-display-img-text-2C {
+                    display: none;
+                }
+
+                .page-display-img-text-2D {
+                    display: none;
+                }
+
+                .page-display-img-text-2E {
+                    display: none;
+                }
+
                 .page-display-img-text-bb2 {
                     font-size: 30px;
                     margin-bottom: 15px;
@@ -828,6 +920,7 @@ body {
     }
 }
 
+/* iPad/Tablet Settings */
 @media screen and (min-width: 650px) {
     @media screen and (max-width: 1200px) {
         @media screen and (min-height: 700px) {
@@ -857,11 +950,14 @@ body {
                     font-size: 32px;
                     margin-bottom: 25px;
                 }
+
+                
             }
         }
     }
 }
 
+/* Computer Settings */
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
         width: 24%;
