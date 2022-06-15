@@ -489,7 +489,7 @@ body {
 }
 
 .wc {
-    color: var(--mcw);
+    color: var(--White);
 }
 
 .ts-mc {
@@ -840,7 +840,7 @@ body {
     height:100%;
     width: 0;
     position: fixed;
-    z-index: 11;
+    z-index: 21;
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
