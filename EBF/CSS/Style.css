@@ -239,7 +239,7 @@ body {
 
 .active-acc:after {
     content: "\2212";
-    color: var(--White);
+    color: var(--mcb);
 }
 
 .panel {
