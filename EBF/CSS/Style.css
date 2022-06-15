@@ -740,7 +740,7 @@ body {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 12;
     background-color: var(--mcb);
     overflow-y: hidden;
     margin-top: 5px;
