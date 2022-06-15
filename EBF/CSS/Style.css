@@ -827,6 +827,63 @@ body {
     }
 }
 
+/* Classes Menu Settings */
+.overlay-cm {
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-cm-content {
+    position: relative;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.overlay-cm a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-cm a:hover, .overlay-cm a:focus {
+    color: #f1f1f1;
+}
+
+.overlay-cm .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay-cm a {
+        font-size: 20px;
+    }
+    .overlay-cm .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.csp {
+    cursor: pointer;
+}
+
 
 /* For desktop, tablets, and anything bigger than 768px */
 .col-1 {
