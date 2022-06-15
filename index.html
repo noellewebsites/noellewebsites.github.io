@@ -14,6 +14,8 @@
 
         <!-- Link Stylesheets -->
         <link rel="stylesheet" href="/EBF/CSS/EBFC.css">
+        <link rel="stylesheet" href="/EBF/CSS/Style.css">
+        <link rel="icon" href="/EBF/IMG/white_logo_color_background.jpg" alt="Every Body Fitness JOMO weights.jpg">
         <!--link rel="stylesheet" href="/EBF/CSS/RWD.css">
         <link rel="stylesheet" href="/EBF/CSS/PG.css">
         <link rel="stylesheet" href="/EBF/CSS/OCM.css">
@@ -38,8 +40,41 @@
     <!-- Main content of the page -->
     <body>
 
-        
         <a href="H1" name="H1"></a>
+
+        <!--Fixed Navbar Settings-->
+      <div class="navbar col-12">
+        <div class="logo-display">
+          <a class="active" href="/">
+            <img class="logo-display-img" src="/EBF/IMG/white_logo_color_background.jpg" alt="Every Body Fitness JOMO weights.jpg">
+          </a>  
+        </div>
+        <br>
+          <a class="fixed-navbar-items" href="/">Home</a>
+          <a class="fixed-navbar-items" href="/#CB1">Classes</a>
+          <a class="fixed-navbar-items" href="/EBF/PASS/Class_Passes.html">Schedule</a>
+          <a class="fixed-navbar-items" href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
+          <a class="fixed-navbar-items" href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
+          <!--a class="fixed-navbar-items" href="/EBF/LWC/Life_Wellness_Coaching.html">Life Coaching</a-->
+          <a href="javascript:void(0);" class="fixed-navbar-icon" onclick="fixedMenu(this); openSlideMenu();">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+      
+      <!--Slide Down Menu-->
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="/">Home</a>
+            <a href="/#CB1" onclick="fixedMenu(this); openSlideMenu();">Classes</a>
+            <a href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+            <a href="/EBF/CAD/Cabaret.html" onclick="fixedMenu(this); openSlideMenu();">Cabaret After Dark</a>
+            <a href="/EBF/BGS/Blissful_Glow_Studio.html" onclick="fixedMenu(this); openSlideMenu();">Blissful Glow</a>
+            <!--a href="/EBF/LWC/Life_Wellness_Coaching.html" onclick="fixedMenu(this); openSlideMenu();">Life Coaching</a-->
+        </div>
+      </div>
+
+        
+        <!--a href="H1" name="H1"></a>
 
         <div class="navbar col-12">
             <a href="/">Home</a>
@@ -48,7 +83,7 @@
             <a href="https://everybodyfitnessjomo.com#FAQ1">FAQs</a>
         </div>
         <br>
-        <br>
+        <br-->
         <!-- Sidenav Classes menu-->
         <div id="myNav" class="overlay-cm">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -74,16 +109,16 @@
     </div>
 
     <!-- Services Menu -->
-    <div id="servicesNav" class="overlay-cm-services">
+    <!--div id="servicesNav" class="overlay-cm-services">
         <a href="javascript:void(0)" class="closebtn-services" onclick="closeServicesNav()">&times;</a>
         <div class="overlay-cm-services-content">
             <a href="/EBF/PASS/Class_Passes.html">Schedule</a>
             <a href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
-            <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
+            <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a-->
             <!--a href="/EBF/MT/Massage_Therapy.html">Massage Therapy</a-->
             <!--a href="/EBF/LWC/Life_Wellness_Coaching.html">Life/Wellness Coaching</a-->
-        </div>
-    </div>
+        <!--/div>
+    </div-->
 
         <img class="logo bs col-7 animate__animated animate__zoomIn" src="/EBF/IMG/white_logo_color_background.jpg" alt="Every Body Fitness JOMO weights.jpg">
         
