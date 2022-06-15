@@ -733,6 +733,14 @@ body {
     }
 }
 
+.gmi {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 /* Open/Close menu settings */
 
 /* Slide menu settings */
