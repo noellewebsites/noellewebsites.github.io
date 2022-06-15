@@ -276,6 +276,11 @@ body {
   /*  font-variant: small-caps; */
 }
 
+.believe h1 {
+    color: var(--White);
+    text-shadow: 2px 2px 2px var(--bl);
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .believe {
