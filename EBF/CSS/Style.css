@@ -208,8 +208,8 @@ body {
 }
 
 .accordion {
-    background-color: var(--White);
-    color: var(--Black);
+    background-color: var(--mcb);
+    color: var(--White);
     cursor: pointer;
     padding: 28px;
     width: 91%;
@@ -224,8 +224,8 @@ body {
 }
 
 .active-acc, .accordion:hover {
-    background-color: var(--MeteorJSPurple);
-    color: var(--White);
+    background-color: var(--White);
+    color: var(--mcb);
     font-size: 26px;
 }
 
@@ -244,7 +244,7 @@ body {
 
 .panel {
     padding: 0 18px;
-    background-color: var(--White);
+    background-color: var(--EBFGrey);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
