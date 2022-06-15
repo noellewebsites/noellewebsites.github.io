@@ -255,6 +255,11 @@ body {
     font-size: 22px;
 }
 
+.panel p {
+    color: var(--White);
+    text-shadow: 2px 2px 2px var(--bl);
+}
+
 .believe {
     margin-right: auto;
     margin-left: auto;
@@ -316,6 +321,14 @@ body {
 
 .bl-o {
     border: 2px solid var(--mcb);
+}
+
+.h-fl {
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    z-index: 6;
+    padding: 3px 3px 3px 3px;
 }
 
 .cad-underline {
@@ -1175,6 +1188,12 @@ body {
     color: var(--bl);
     text-align: center;
     font-size: 18px;
+}
+
+.cr-t {
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 25px;
 }
 
 .ts-mbl {
