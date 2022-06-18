@@ -162,12 +162,11 @@ body {
 }
 
 .bottom-navbar-items-fb {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     color: var(--mcb);
    /* text-shadow: 1px 1px var(--Black);*/
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     text-decoration: none;
     font-size: 30px;
     background-size: 0% 100%;
@@ -1134,6 +1133,20 @@ body {
     font-variant: small-caps;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .extra-spacing {
+            display: block;
+        }
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .extra-spacing {
+        display: none;
+    }
+}
+
 .blissful-glow-container a:hover {
     font-size: 18px;
     transition: 0.25s ease-out;
@@ -1147,9 +1160,7 @@ body {
             display: block;
         }
 
-        .extra-spacing {
-            display: block;
-        }
+        
     }
 }
 
@@ -1179,9 +1190,6 @@ body {
         font-size: 30px;
     }
 
-    .extra-spacing {
-        display: none;
-    }
 }
 
 .r1 {
