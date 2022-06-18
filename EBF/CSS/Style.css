@@ -756,7 +756,7 @@ body {
     color: white;
     font-size: 33px;
     border-radius: 5px;
-    padding: 5px 10px;
+    /*padding: 5px 10px;*/
 }
 
 /* Open/Close menu settings */
@@ -788,7 +788,7 @@ body {
     padding: 8px;
     text-align: center;
     color: var(--White);
-    padding: 10px 12px;
+    /*padding: 10px 12px;*/
     text-decoration: none;
     font-size: 16x;
     background-size: 0% 100%;
