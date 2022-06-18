@@ -156,6 +156,11 @@ body {
     }
 }
 
+.fa-brands {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .bottom-navbar-items-fb {
     margin-left: auto;
     margin-right: auto;
