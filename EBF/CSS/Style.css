@@ -125,7 +125,7 @@ body {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-   /* padding: 15px; */
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -162,7 +162,7 @@ body {
     text-align: center;
     color: var(--mcb);
    /* text-shadow: 1px 1px var(--Black);*/
-    /*padding: 18px 20px;*/
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 30px;
     background-size: 0% 100%;
