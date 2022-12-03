@@ -80,7 +80,98 @@ body {
 .new-title h1 {
     color: var(--White);
     text-shadow: 2px 2px 2px var(--mcb);
+    text-align: center;
+    font-weight: bold;
 }
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 600px) {
+        .new-title h1 {
+            font-size: 35px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 601px) {
+    @media screen and (max-width: 800px) {
+        .new-title h1 {
+            font-size: 40px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 801px) {
+    @media screen and (max-width: 1000px) {
+        .new-title h1 {
+            font-size: 45px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 1001px) {
+    @media screen and (max-width: 1200px) {
+        .new-title h1 {
+            font-size: 50px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 1201px) {
+    @media screen and (max-width: 1400px) {
+        .new-title h1 {
+            font-size: 55px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 1401px) {
+    @media screen and (max-width: 1600px) {
+        .new-title h1 {
+            font-size: 60px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 1601px) {
+    @media screen and (max-width: 1800px) {
+        .new-title h1 {
+            font-size: 65px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 1801px) {
+    @media screen and (max-width: 2000px) {
+        .new-title h1 {
+            font-size: 70px;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width: 2001px) {
+    .new-title h1 {
+        font-size: 75px;
+    }
+}
+
+
+
 
 /* Logo display settings */
 .logo {
