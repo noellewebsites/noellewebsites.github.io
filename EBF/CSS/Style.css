@@ -196,6 +196,21 @@ body {
     font-weight: bold;
 }
 
+.bottom-navbar-items-fb-p {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--mcb);
+   /* text-shadow: 1px 1px var(--Black);*/
+    /*padding: 0 20px;*/
+    text-decoration: none;
+    font-size: 30px;
+    background-size: 0% 100%;
+    /*box-shadow: var(--bsb);*/
+    vertical-align: bottom;
+    /*font-variant: small-caps;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
 .r1 {
     z-index: 5;
     margin-left: auto;
