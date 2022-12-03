@@ -333,6 +333,7 @@ body {
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
     /*font-variant: small-caps;*/
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
