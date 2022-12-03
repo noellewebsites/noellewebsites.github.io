@@ -302,6 +302,7 @@ body {
     font-size: 33px;
 }
 
+/*
 .bottom-navbar-items-fb-p:hover {
     background-color: none;
     background-image: linear-gradient(transparent calc(100% - 2px), var(--mcb) 1px);
@@ -313,6 +314,7 @@ body {
     transition: all .25s;
     font-size: 33px;
 }
+*/
 
 .bottom-navbar-items-fb span {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;    
