@@ -1283,12 +1283,20 @@ body {
         .extra-spacing {
             display: block;
         }
+
+        .bottom-navbar-items-fb-p {
+            width: 100%;
+        }
     }    
 }
 
 @media screen and (min-width: 768px) {
     .extra-spacing {
         display: none;
+    }
+
+    .bottom-navbar-items-fb-p {
+        width: 20%;
     }
 }
 
