@@ -1284,9 +1284,11 @@ body {
             display: block;
         }
 
+        /*
         .bottom-navbar-items-fb-p {
             width: 100%;
         }
+        */
     }    
 }
 
@@ -1295,9 +1297,11 @@ body {
         display: none;
     }
 
+    /*
     .bottom-navbar-items-fb-p {
         width: 20%;
     }
+    */
 }
 
 .blissful-glow-container a:hover {
