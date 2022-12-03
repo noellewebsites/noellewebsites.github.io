@@ -225,9 +225,9 @@ body {
 .navbar-bottom {
     overflow: hidden;
     background-color: none;
-    bottom: 0;
+    /*bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100%; */
     z-index: 2;
     border-radius: 5px;
     text-align: center;
