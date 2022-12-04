@@ -1377,6 +1377,7 @@ body {
     color: rgb(255,255,255);
     text-align: left;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .ts-mbl {
