@@ -903,6 +903,7 @@ body {
 .gmi {
     text-align: left;
     color: white;
+    left: 0;
     font-size: 33px;
     border-radius: 5px;
     /*padding: 5px 10px;*/
