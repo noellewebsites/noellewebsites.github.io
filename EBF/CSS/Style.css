@@ -1373,6 +1373,12 @@ body {
     font-size: 25px;
 }
 
+.cr-t2 {
+    color: rgb(255,255,255);
+    text-align: left;
+    font-size: 25px;
+}
+
 .ts-mbl {
     text-shadow: 1.25px 1.25px var(--bl);
 }
