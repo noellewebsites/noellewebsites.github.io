@@ -1708,7 +1708,7 @@ body {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 450px) {
                 .page-display-vid-container {
-                    width: 25%;
+                    width: 30%;
                 }
 
                 .page-display-img-text-bb {
@@ -1763,7 +1763,7 @@ body {
         @media screen and (min-height: 600px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
-                    width: 37%;
+                    width: 40%;
                 }
 
                 .page-display-img-text-bb {
@@ -1799,7 +1799,7 @@ body {
 /* Computer Settings */
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
-        width: 24%;
+        width: 28%;
     }
 
     .page-display-img-text-bb {
@@ -1884,7 +1884,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .tik-tok-video {
-            width: 54.5%;
+            width: 50.5%;
         }
 
         .page-display-img-text-p {
@@ -1896,7 +1896,7 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 800px) {
         .tik-tok-video {
-            width: 44.5%;
+            width: 40.5%;
         }
 
         .page-display-img-text-p {
@@ -1908,7 +1908,7 @@ body {
 @media screen and (min-width: 800px) {
     @media screen and (max-width: 1000px) {
         .tik-tok-video {
-            width: 34.5%;
+            width: 30.5%;
         }
 
         .page-display-img-text-p {
@@ -1920,7 +1920,7 @@ body {
 @media screen and (min-width: 1000px) {
     @media screen and (max-width: 1200px) {
         .tik-tok-video {
-            width: 30%;
+            width: 26%;
         }
 
         .page-display-img-text-p {
@@ -1932,7 +1932,7 @@ body {
 @media screen and (min-width: 1200px) {
     @media screen and (max-width: 1400px) {
         .tik-tok-video {
-            width: 24%;
+            width: 20%;
         }
 
         .page-display-img-text-p {
@@ -1944,7 +1944,7 @@ body {
 @media screen and (min-width: 1400px) {
     @media screen and (max-width: 1600px) {
         .tik-tok-video {
-            width: 20.5%;
+            width: 18.5%;
         }
 
         .page-display-img-text-p {
