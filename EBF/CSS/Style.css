@@ -1708,7 +1708,7 @@ body {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 450px) {
                 .page-display-vid-container {
-                    width: 30%;
+                    width: 35%;
                 }
 
                 .page-display-img-text-bb {
@@ -1763,7 +1763,7 @@ body {
         @media screen and (min-height: 600px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
-                    width: 40%;
+                    width: 45%;
                 }
 
                 .page-display-img-text-bb {
@@ -1799,7 +1799,7 @@ body {
 /* Computer Settings */
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
-        width: 30%;
+        width: 33%;
     }
 
     .page-display-img-text-bb {
