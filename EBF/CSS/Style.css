@@ -75,7 +75,7 @@ body {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 11;
+    z-index: 21;
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
@@ -86,10 +86,10 @@ body {
 
 .overlay-cm-services-content {
     position: relative;
-    top: 13%;
+    top: 12%;
     width: 100%;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 .overlay-cm-services a {
     padding: 8px;
