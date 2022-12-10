@@ -1723,6 +1723,10 @@ a {
                     width: 35%;
                 }
 
+                .page-display-vid-container-2 {
+                    width: 38%;
+                }
+
                 .page-display-img-text-bb {
                     font-size: 32px;
                     margin-bottom: 50px;
@@ -1778,6 +1782,10 @@ a {
                     width: 45%;
                 }
 
+                .page-display-vid-container-2 {
+                    width: 48%;
+                }
+
                 .page-display-img-text-bb {
                     font-size: 31px;
                     margin-bottom: 55px;
@@ -1812,6 +1820,10 @@ a {
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
         width: 28%;
+    }
+
+    .page-display-vid-container-2 {
+        width: 31%;
     }
 
     .page-display-img-text-bb {
