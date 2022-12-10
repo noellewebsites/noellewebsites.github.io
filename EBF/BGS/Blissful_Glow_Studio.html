@@ -12,7 +12,9 @@
 
         <!--Link Stylesheets and Icons-->
         <link rel="stylesheet" href="/EBF/CSS/Style_BG.css">
-        <link rel="icon" href="/EBF/IMG/Blissful_Glow_Logo.jpg" alt="Blissful Glow Background, Joplin MO">
+        <link rel="stylesheet" href="/EBF/CSS/Style.css">
+        <link rel="icon" href="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
+        <!--link rel="stylesheet" href="/EBF/CSS/RWD.css"-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         
@@ -33,32 +35,68 @@
       <div class="navbar col-12">
         <div class="logo-display">
           <a class="active" href="/">
-            <img class="logo-display-img" src="/EBF/IMG/white_logo_color_background.jpg" alt="Every Body Fitness JOMO weights.jpg">
+            <img class="logo-display-img" src="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
           </a>  
         </div>
         <br>
-          <a class="fixed-navbar-items" href="/">Home</a>
-          <a class="fixed-navbar-items" href="/#CB1">Classes</a>
-          <a class="fixed-navbar-items" href="/EBF/PASS/Class_Passes.html">Schedule</a>
-          <a class="fixed-navbar-items" href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
-          <a class="fixed-navbar-items" href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
-          <!--a class="fixed-navbar-items" href="/EBF/LWC/Life_Wellness_Coaching.html">Life Coaching</a-->
-          <a href="javascript:void(0);" class="fixed-navbar-icon" onclick="fixedMenu(this); openSlideMenu();">
+        <a class="fixed-navbar-items" href="/">Home</a>
+        <a class="fixed-navbar-items" href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openNav()">Classes</a>
+        <a class="fixed-navbar-items" href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openServicesNav()">More</a>
+        <!--a class="fixed-navbar-items" href="/EBF/LWC/Life_Wellness_Coaching.html">Life Coaching</a-->
+        <a href="javascript:void(0);" class="fixed-navbar-icon" onclick="fixedMenu(this); openSlideMenu();">
               <i class="fa fa-bars"></i>
           </a>
       </div>
       
-      <!--Slide Down Menu-->
-      <div id="myNav" class="overlay">
+       <!--Slide Down Menu-->
+       <div id="myNav" class="overlay">
         <div class="overlay-content">
             <a href="/">Home</a>
-            <a href="/#CB1" onclick="fixedMenu(this); openSlideMenu();">Classes</a>
             <a href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
-            <a href="/EBF/CAD/Cabaret.html" onclick="fixedMenu(this); openSlideMenu();">Cabaret After Dark</a>
-            <a href="/EBF/BGS/Blissful_Glow_Studio.html" onclick="fixedMenu(this); openSlideMenu();">Blissful Glow</a>
+            <a href="javascript:void(0);" onclick="openNav()">Classes</a>
+            <a href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+            <a href="javascript:void(0);" onclick="openServicesNav()">More</a>
             <!--a href="/EBF/LWC/Life_Wellness_Coaching.html" onclick="fixedMenu(this); openSlideMenu();">Life Coaching</a-->
         </div>
       </div>
+
+       <!-- Sidenav Classes menu-->
+       <div id="classNav" class="overlay-cm">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-cm-content">
+        <!--a href="/EBF/AMPED/Amped.html">AMPED</a-->
+        <a href="/EBF/ZT/Zumba_Toning.html">Zumba &reg; Toning</a> 
+        <!-- a href="/ZUMBA/Zumba.html">Zumba &reg;</a -->
+        <a href="/EBF/ZG/Zumba_Gold.html">Zumba Gold &reg;</a>
+        <a href="/EBF/POUND/Pound.html">POUND &reg;</a>
+        <!-- a href="/BARRE/Barre.html">Barre</a -->
+        <!--a href="/HH/index.html">HIIT-Hop</a-->
+        <!--a href="/YF/index.html">Youth Fitness</a-->
+        <!--a href="/EBF/BC/Boot_Camp.html">Bootcamp</a-->
+        <a href="/EBF/YG/Yoga.html">Yoga</a>
+        <!--a href="/EBF/CYG/Chair_Yoga.html">Chair Yoga</a-->
+        <a href="/EBF/BB/Burlesque_Burn.html">Burlesque Burn</a>
+        <a href="/EBF/TURN/Turn_Up.html">Turn Up</a>
+        <!--a href="/AOA/Active_Older_Adults.html">Active Older Adults</a-->
+        <!--a href="/TAI/Tai_Chi.html">Tai Chi</a-->
+        <!--a href="/ST/Strength_Training.html">Strength Training</a-->
+        <!-- a href="/EBF/HDH/Hump_Day_Hustle.html">Hump Day Hustle</a-->
+    </div>
+    </div>
+
+    <!-- Services Menu -->
+    <div id="servicesNav" class="overlay-cm-services">
+      <a href="javascript:void(0)" class="closebtn-services" onclick="closeServicesNav()">&times;</a>
+      <div class="overlay-cm-services-content">
+          <!--a href="/EBF/PASS/Class_Passes.html">Schedule</a-->
+          <a href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
+          <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
+          <!--a href="/EBF/MT/Massage_Therapy.html">Massage Therapy</a-->
+          <!--a href="/EBF/LWC/Life_Wellness_Coaching.html">Life/Wellness Coaching</a-->
+      </div>
+  </div>
 
       <!--Main Picture-->
       <div class="display col-12 container-img">
@@ -116,16 +154,39 @@
         </div>
         <br>
         <br>
-        <div class="r1 col-6">
-            <p class="cr">
-                &#169; 2020 - 2022 NOELLE SITES
-            </p>
-        </div>
+        <div class="r1 col-5">
+          <p class="cr-t ts-mbl">
+              &#169; 2020 - 2022 NOELLE SITES
+          </p>
+      </div>
     <!--/div-->
 
 
-      <!--JavaScript Files-->
-      <script src="/EBF/JS/JS.js"></script>
+    <script src="/EBF/JS/ACC.js"></script>
+    <script src="/EBF/JS/Accordion.js"></script>
+    <script src="/EBF/JS/EBFSS.js"></script>
+    <script src="/EBF/JS/JS.js"></script>
+
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '525319072791900'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=525319072791900&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
     </body>
 </html>
 
