@@ -30,6 +30,12 @@ a {
     cursor: pointer;
 }
 
+#ZSS {
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+}
+
 
 /* Fixed Menu Settings */
 .navbar {
