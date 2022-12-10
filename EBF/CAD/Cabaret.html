@@ -10,14 +10,22 @@
         <meta name="keywords" content="Everybody, Fitness, Joplin, Missouri, Amped, Yoga, Zumba Toning, Pound">
         <meta name="author" content="Noelle Sites">
 
-                <!-- Link Stylesheets -->
-                <link rel="stylesheet" href="/EBF/CSS/RWD.css">
-                <link rel="stylesheet" href="/EBF/CSS/OCM.css">
-                <link rel="stylesheet" href="/EBF/ZUMBA/zumba.css">
-                <link rel="stylesheet" href="/EBF/CSS/EBFC.css">
-                <link rel="stylesheet" href="/EBF/CSS/IMGO.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                 <!-- Link Stylesheets -->
+        <!--link rel="stylesheet" href="/EBF/CSS/EBFC.css"-->
+        <link rel="stylesheet" href="/EBF/CSS/Style.css">
+        <link rel="icon" href="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
+        <!--link rel="stylesheet" href="/EBF/CSS/RWD.css">
+        <link rel="stylesheet" href="/EBF/CSS/PG.css">
+        <link rel="stylesheet" href="/EBF/CSS/OCM.css">
+        <link rel="stylesheet" href="/EBF/CSS/OS.css">
+        <link rel="stylesheet" href="/EBF/CSS/FAQ.css">
+        <link rel="stylesheet" href="/EBF/CSS/ACC.css">
+        <link rel="stylesheet" href="/EBF/CSS/IMGO.css"-->
+        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+        <!--link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"-->
 
         <!-- Control all CSS elements from here -->
         <style>
@@ -33,49 +41,75 @@
     <body>
         <a href="H1" name="H1"></a>
 
-        <div class="navbar col-12">
-            <a href="/">Home</a>
-            <a class="csp" onclick="openNav()">&#9776; Classes</a>
-            <a class="csp" onclick="openServicesNav()">&#9776; Services</a>
-            <a href="https://everybodyfitnessjomo.com#FAQ1">FAQs</a>
+         <!--Fixed Navbar Settings-->
+      <div class="navbar col-12">
+        <div class="logo-display">
+          <a class="active" href="/">
+            <img class="logo-display-img" src="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
+          </a>  
         </div>
         <br>
+        <a class="fixed-navbar-items" href="/">Home</a>
+        <a class="fixed-navbar-items" href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openNav()">Classes</a>
+        <a class="fixed-navbar-items" href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openServicesNav()">More</a>
+        <!--a class="fixed-navbar-items" href="/EBF/LWC/Life_Wellness_Coaching.html">Life Coaching</a-->
+        <a href="javascript:void(0);" class="fixed-navbar-icon" onclick="fixedMenu(this); openSlideMenu();">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+
         <br>
-        <!-- Sidenav Classes menu-->
-        <div id="myNav" class="overlay-cm">
+        <br>
+
+        <!--Slide Down Menu-->
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="/">Home</a>
+            <a href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+            <a href="javascript:void(0);" onclick="openNav()">Classes</a>
+            <a href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+            <a href="javascript:void(0);" onclick="openServicesNav()">More</a>
+            <!--a href="/EBF/LWC/Life_Wellness_Coaching.html" onclick="fixedMenu(this); openSlideMenu();">Life Coaching</a-->
+        </div>
+      </div>
+
+         <!-- Sidenav Classes menu-->
+         <div id="classNav" class="overlay-cm">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-cm-content">
             <!--a href="/EBF/AMPED/Amped.html">AMPED</a-->
-            <a href="/EBF/ZT/Zumba_Toning.html">Zumba &reg; Toning</a>   
+            <a href="/EBF/ZT/Zumba_Toning.html">Zumba &reg; Toning</a> 
             <!-- a href="/ZUMBA/Zumba.html">Zumba &reg;</a -->
             <a href="/EBF/ZG/Zumba_Gold.html">Zumba Gold &reg;</a>
             <a href="/EBF/POUND/Pound.html">POUND &reg;</a>
             <!-- a href="/BARRE/Barre.html">Barre</a -->
             <!--a href="/HH/index.html">HIIT-Hop</a-->
             <!--a href="/YF/index.html">Youth Fitness</a-->
-            <a href="/EBF/BC/Boot_Camp.html">Bootcamp</a>
+            <!--a href="/EBF/BC/Boot_Camp.html">Bootcamp</a-->
             <a href="/EBF/YG/Yoga.html">Yoga</a>
-            <a href="/EBF/CYG/Chair_Yoga.html">Chair Yoga</a>
+            <!--a href="/EBF/CYG/Chair_Yoga.html">Chair Yoga</a-->
             <a href="/EBF/BB/Burlesque_Burn.html">Burlesque Burn</a>
             <a href="/EBF/TURN/Turn_Up.html">Turn Up</a>
             <!--a href="/AOA/Active_Older_Adults.html">Active Older Adults</a-->
-        <!--a href="/TAI/Tai_Chi.html">Tai Chi</a-->
-        <!--a href="/ST/Strength_Training.html">Strength Training</a-->
-            <!--a href="/EBF/HDH/Hump_Day_Hustle.html">Hump Day Hustle</a-->
+            <!--a href="/TAI/Tai_Chi.html">Tai Chi</a-->
+            <!--a href="/ST/Strength_Training.html">Strength Training</a-->
+            <!-- a href="/EBF/HDH/Hump_Day_Hustle.html">Hump Day Hustle</a-->
         </div>
         </div>
 
                <!-- Services Menu -->
-        <div id="servicesNav" class="overlay-cm-services">
-            <a href="javascript:void(0)" class="closebtn-services" onclick="closeServicesNav()">&times;</a>
-            <div class="overlay-cm-services-content">
-                <a href="/EBF/PASS/Class_Passes.html">Schedule</a>
-                <a href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
-                <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
-                <!--a href="/EBF/MT/Massage_Therapy.html">Massage Therapy</a-->
-                <!--a href="/EBF/LWC/Life_Wellness_Coaching.html">Life/Wellness Coaching</a-->
-            </div>
+    <div id="servicesNav" class="overlay-cm-services">
+        <a href="javascript:void(0)" class="closebtn-services" onclick="closeServicesNav()">&times;</a>
+        <div class="overlay-cm-services-content">
+            <!--a href="/EBF/PASS/Class_Passes.html">Schedule</a-->
+            <a href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
+            <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
+            <!--a href="/EBF/MT/Massage_Therapy.html">Massage Therapy</a-->
+            <!--a href="/EBF/LWC/Life_Wellness_Coaching.html">Life/Wellness Coaching</a-->
         </div>
+    </div>
 
         <div class="r1">
             <img class="zl-1 bs col-5" src="/EBF/IMG/Cover photo4.jpg" alt="Every Body Ftiness Joplin Missouri Cabaret After Dark">
