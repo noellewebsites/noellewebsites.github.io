@@ -826,7 +826,7 @@ a {
         border-radius: 7px;
         height: auto;
         float: left;
-        width: 30%;
+        width: 32%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -834,7 +834,7 @@ a {
       }
     
       .logo-display-img:hover {
-          width: 32%;
+          width: 34%;
           transition: all .25s;
       }
     }
@@ -983,7 +983,7 @@ a {
     color: var(--White);
     padding: 10px 22px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
