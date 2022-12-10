@@ -1720,7 +1720,7 @@ a {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 450px) {
                 .page-display-vid-container {
-                    width: 25%;
+                    width: 20%;
                 }
 
                 .page-display-vid-container-2 {
@@ -1779,7 +1779,7 @@ a {
         @media screen and (min-height: 600px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
-                    width: 40%;
+                    width: 37%;
                 }
 
                 .page-display-vid-container-2 {
