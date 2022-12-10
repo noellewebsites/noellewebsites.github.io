@@ -1799,7 +1799,7 @@ body {
 /* Computer Settings */
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
-        width: 28%;
+        width: 30%;
     }
 
     .page-display-img-text-bb {
