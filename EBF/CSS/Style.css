@@ -26,6 +26,10 @@ body {
     background-color: var(--EBFGrey);
 }
 
+a {
+    cursor: pointer;
+}
+
 
 /* Fixed Menu Settings */
 .navbar {

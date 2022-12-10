@@ -7,17 +7,25 @@
         <!-- Make the webpage responsive-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Everybody, Fitness, Joplin, Missouri, Amped, Yoga, Zumba Toning, Pound, Turn Up">
+        <meta name="keywords" content="Everybody, Fitness, Joplin, Missouri, Amped, Yoga, Zumba, Toning, Gold, Pound, Turn Up">
         <meta name="author" content="Noelle Sites">
 
                 <!-- Link Stylesheets -->
-                <link rel="stylesheet" href="/EBF/CSS/RWD.css">
-                <link rel="stylesheet" href="/EBF/CSS/OCM.css">
-                <link rel="stylesheet" href="/EBF/CSS/IMGO.css">
-                <link rel="stylesheet" href="/EBF/CSS/EBFC.css">
-                <link rel="stylesheet" href="/EBF/ZUMBA/zumba.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--link rel="stylesheet" href="/EBF/CSS/EBFC.css"-->
+        <link rel="stylesheet" href="/EBF/CSS/Style.css">
+        <link rel="icon" href="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
+        <!--link rel="stylesheet" href="/EBF/CSS/RWD.css">
+        <link rel="stylesheet" href="/EBF/CSS/PG.css">
+        <link rel="stylesheet" href="/EBF/CSS/OCM.css">
+        <link rel="stylesheet" href="/EBF/CSS/OS.css">
+        <link rel="stylesheet" href="/EBF/CSS/FAQ.css">
+        <link rel="stylesheet" href="/EBF/CSS/ACC.css">
+        <link rel="stylesheet" href="/EBF/CSS/IMGO.css"-->
+        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+        <!--link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"-->
 
                
         <!-- Control all CSS elements from here -->
@@ -34,43 +42,70 @@
     <body>
         <a href="H1" name="H1"></a>
 
-        <div class="navbar col-12">
-            <a href="/">Home</a>
-            <a class="csp" onclick="openNav()">&#9776; Classes</a>
-            <a class="csp" onclick="openServicesNav()">&#9776; Services</a>
-            <a href="https://everybodyfitnessjomo.com#FAQ1">FAQs</a>
+        <!--Fixed Navbar Settings-->
+      <div class="navbar col-12">
+        <div class="logo-display">
+          <a class="active" href="/">
+            <img class="logo-display-img" src="/EBF/IMG/2022_EBF_logo.jpg" alt="Every Body Fitness JOMO black and white logo Joplin, MO">
+          </a>  
         </div>
         <br>
-        <br>
-        <!-- Sidenav Classes menu-->
-        <div id="myNav" class="overlay-cm">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-cm-content">
-        <!--a href="/EBF/AMPED/Amped.html">AMPED</a-->
-        <a href="/EBF/ZT/Zumba_Toning.html">Zumba &reg; Toning</a>    
-        <!-- a href="/ZUMBA/Zumba.html">Zumba &reg;</a -->
-        <a href="/EBF/ZG/Zumba_Gold.html">Zumba Gold &reg;</a>
-        <a href="/EBF/POUND/Pound.html">POUND &reg;</a>
-        <!-- a href="/BARRE/Barre.html">Barre</a -->
-        <!--a href="/HH/index.html">HIIT-Hop</a-->
-        <!--a href="/YF/index.html">Youth Fitness</a-->
-        <a href="/EBF/BC/Boot_Camp.html">Bootcamp</a>
-        <a href="/EBF/YG/Yoga.html">Yoga</a>
-        <a href="/EBF/CYG/Chair_Yoga.html">Chair Yoga</a>
-        <a href="/EBF/BB/Burlesque_Burn.html">Burlesque Burn</a>
-        <a href="/EBF/TURN/Turn_Up.html">Turn Up</a>
-        <!--a href="/AOA/Active_Older_Adults.html">Active Older Adults</a-->
-        <!--a href="/TAI/Tai_Chi.html">Tai Chi</a-->
-        <!--a href="/ST/Strength_Training.html">Strength Training</a-->
-        <!--a href="/EBF/HDH/Hump_Day_Hustle.html">Hump Day Hustle</a-->
-    </div>
-    </div>
+        <a class="fixed-navbar-items" href="/">Home</a>
+        <a class="fixed-navbar-items" href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openNav()">Classes</a>
+        <a class="fixed-navbar-items" href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+        <a class="fixed-navbar-items" href="javascript:void(0);" onclick="openServicesNav()">More</a>
+        <!--a class="fixed-navbar-items" href="/EBF/LWC/Life_Wellness_Coaching.html">Life Coaching</a-->
+        <a href="javascript:void(0);" class="fixed-navbar-icon" onclick="fixedMenu(this); openSlideMenu();">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
 
-    <!-- Services Menu -->
+      <!--Slide Down Menu-->
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="/">Home</a>
+            <a href="/EBF/PASS/Class_Passes.html" onclick="fixedMenu(this); openSlideMenu();">Schedule</a>
+            <a href="javascript:void(0);" onclick="openNav()">Classes</a>
+            <a href="/EBF/FAQ/FAQ.html" onclick="fixedMenu(this); openSlideMenu();">FAQs</a>
+            <a href="javascript:void(0);" onclick="openServicesNav()">More</a>
+            <!--a href="/EBF/LWC/Life_Wellness_Coaching.html" onclick="fixedMenu(this); openSlideMenu();">Life Coaching</a-->
+        </div>
+      </div>
+
+        <br>
+        <br>
+
+
+        <!-- Sidenav Classes menu-->
+        <div id="classNav" class="overlay-cm">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-cm-content">
+            <!--a href="/EBF/AMPED/Amped.html">AMPED</a-->
+            <a href="/EBF/ZT/Zumba_Toning.html">Zumba &reg; Toning</a> 
+            <!-- a href="/ZUMBA/Zumba.html">Zumba &reg;</a -->
+            <a href="/EBF/ZG/Zumba_Gold.html">Zumba Gold &reg;</a>
+            <a href="/EBF/POUND/Pound.html">POUND &reg;</a>
+            <!-- a href="/BARRE/Barre.html">Barre</a -->
+            <!--a href="/HH/index.html">HIIT-Hop</a-->
+            <!--a href="/YF/index.html">Youth Fitness</a-->
+            <!--a href="/EBF/BC/Boot_Camp.html">Bootcamp</a-->
+            <a href="/EBF/YG/Yoga.html">Yoga</a>
+            <!--a href="/EBF/CYG/Chair_Yoga.html">Chair Yoga</a-->
+            <a href="/EBF/BB/Burlesque_Burn.html">Burlesque Burn</a>
+            <a href="/EBF/TURN/Turn_Up.html">Turn Up</a>
+            <!--a href="/AOA/Active_Older_Adults.html">Active Older Adults</a-->
+            <!--a href="/TAI/Tai_Chi.html">Tai Chi</a-->
+            <!--a href="/ST/Strength_Training.html">Strength Training</a-->
+            <!-- a href="/EBF/HDH/Hump_Day_Hustle.html">Hump Day Hustle</a-->
+        </div>
+        </div>
+
+     <!-- Services Menu -->
     <div id="servicesNav" class="overlay-cm-services">
         <a href="javascript:void(0)" class="closebtn-services" onclick="closeServicesNav()">&times;</a>
         <div class="overlay-cm-services-content">
-            <a href="/EBF/PASS/Class_Passes.html">Schedule</a>
+            <!--a href="/EBF/PASS/Class_Passes.html">Schedule</a-->
             <a href="/EBF/CAD/Cabaret.html">Cabaret After Dark</a>
             <a href="/EBF/BGS/Blissful_Glow_Studio.html">Blissful Glow</a>
             <!--a href="/EBF/MT/Massage_Therapy.html">Massage Therapy</a-->
@@ -78,17 +113,15 @@
         </div>
     </div>
 
-        <div class="r1 animate__animated animate__rubberBand">
-            <img class="zl-1 bs col-6" src="/EBF/IMG/Yoga_1.jpg">
-        </div>
-        <br>
-        <div class="r1 col-6 animate__animated animate__rubberBand">
-            <h2 class="zh2 ts-mbl">
-                Monday/Wednesday 
+    <div class="new-title col-9">
+        <h1>
+            Monday & Wednesday 
                 <br>
                 @ 5:30pm
-            </h2>
-        </div>     
+            <br>
+        </h1>
+    </div> 
+    
         
         <br>
         <div id="ZSS" class="w3-content w3-section col-6 r1">
@@ -103,8 +136,8 @@
 
         
 
-        <div class="r1 col-8">
-            <p class="zh3 ts-mbl">
+        <div class="new-title col-8">
+            <p>
                 Get Grounded with Edie!
                 <br>
                 <br>
@@ -117,18 +150,22 @@ Yoga classes will flow through postures designed to build internal heat slowly a
 We look forward to sharing the practice of Yoga with you! ALL LEVELS Welcome!</p>
         </div>
 
-        <div class="r1 gmic col-8">
-            <p class="ns-c ts-mbl">
-                &#169; 2021 NOELLE SITES
+        <div class="r1 col-5">
+            <p class="cr-t ts-mbl">
+                &#169; 2020 - 2022 NOELLE SITES
             </p>
         </div>
         
 
-        <script
-            src="/EBF/JS/OCM.js"></script>
+        <script src="/EBF/JS/OCM.js"></script>
+            <!--script src="/JS/OS.js">
 
-            <script
-            src="/EBF/JS/EBFSS.js"></script>
+            </script-->
+
+            <script src="/EBF/JS/ACC.js"></script>
+            <script src="/EBF/JS/Accordion.js"></script>
+            <script src="/EBF/JS/EBFSS.js"></script>
+            <script src="/EBF/JS/JS.js"></script>
 
         
     </body>
