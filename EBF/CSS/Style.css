@@ -134,7 +134,7 @@ body {
     text-align: center;
 }
 
-.new-title h1 {
+.new-title h1, p {
     color: var(--White);
     text-shadow: 2px 2px 2px var(--mcb);
     text-align: center;
@@ -146,6 +146,10 @@ body {
         .new-title h1 {
             font-size: 35px;
         }
+
+        .new-title p {
+            font-size: 25px
+        }
         
     }
     
@@ -155,6 +159,10 @@ body {
     @media screen and (max-width: 800px) {
         .new-title h1 {
             font-size: 40px;
+        }
+
+        .new-title p {
+            font-size: 30px
         }
         
     }
@@ -166,6 +174,10 @@ body {
         .new-title h1 {
             font-size: 45px;
         }
+
+        .new-title p {
+            font-size: 35px
+        }
         
     }
     
@@ -175,6 +187,10 @@ body {
     @media screen and (max-width: 1200px) {
         .new-title h1 {
             font-size: 50px;
+        }
+
+        .new-title p {
+            font-size: 40px
         }
         
     }
@@ -186,6 +202,10 @@ body {
         .new-title h1 {
             font-size: 55px;
         }
+
+        .new-title p {
+            font-size: 45px
+        }
         
     }
     
@@ -195,6 +215,10 @@ body {
     @media screen and (max-width: 1600px) {
         .new-title h1 {
             font-size: 60px;
+        }
+
+        .new-title p {
+            font-size: 50px
         }
         
     }
@@ -206,6 +230,10 @@ body {
         .new-title h1 {
             font-size: 65px;
         }
+
+        .new-title p {
+            font-size: 55px
+        }
         
     }
     
@@ -216,6 +244,10 @@ body {
         .new-title h1 {
             font-size: 70px;
         }
+
+        .new-title p {
+            font-size: 60px
+        }
         
     }
     
@@ -224,6 +256,10 @@ body {
 @media screen and (min-width: 2001px) {
     .new-title h1 {
         font-size: 75px;
+    }
+
+    .new-title p {
+        font-size: 65px
     }
 }
 
