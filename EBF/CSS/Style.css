@@ -1664,7 +1664,7 @@ a {
     text-shadow: var(--bl) 2px 2px 2px;
 }
 
-.page-display-vid-container {
+.page-display-vid-container, .page-display-vid-container-2 {
     display: inline-block;
     margin: 0 auto;
     height: auto;
