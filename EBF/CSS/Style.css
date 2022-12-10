@@ -1720,7 +1720,7 @@ a {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 450px) {
                 .page-display-vid-container {
-                    width: 35%;
+                    width: 30%;
                 }
 
                 .page-display-vid-container-2 {
@@ -1779,11 +1779,11 @@ a {
         @media screen and (min-height: 600px) {
             @media screen and (max-height: 1200px) {
                 .page-display-vid-container {
-                    width: 45%;
+                    width: 40%;
                 }
 
                 .page-display-vid-container-2 {
-                    width: 45%;
+                    width: 48%;
                 }
 
                 .page-display-img-text-bb {
@@ -1819,7 +1819,7 @@ a {
 /* Computer Settings */
 @media screen and (min-width: 1200px) {
     .page-display-vid-container {
-        width: 28%;
+        width: 25%;
     }
 
     .page-display-vid-container-2 {
