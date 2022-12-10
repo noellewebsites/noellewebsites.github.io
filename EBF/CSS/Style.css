@@ -134,17 +134,27 @@ body {
     text-align: center;
 }
 
-.new-title h1, p {
+.new-title h1, h2 {
     color: var(--White);
     text-shadow: 2px 2px 2px var(--mcb);
     text-align: center;
     font-weight: bold;
 }
 
+.new title p {
+    color: var(--White);
+    text-shadow: 2px 2px 2px var(--mcb);
+    text-align: center;
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .new-title h1 {
             font-size: 35px;
+        }
+
+        .new-title h2 {
+            font-size: 30px;
         }
 
         .new-title p {
@@ -161,8 +171,12 @@ body {
             font-size: 40px;
         }
 
+        .new-title h2 {
+            font-size: 35px;
+        }
+
         .new-title p {
-            font-size: 30px
+            font-size: 28px
         }
         
     }
@@ -175,8 +189,12 @@ body {
             font-size: 45px;
         }
 
+        .new-title h2 {
+            font-size: 40px;
+        }
+
         .new-title p {
-            font-size: 35px
+            font-size: 31px
         }
         
     }
@@ -189,8 +207,12 @@ body {
             font-size: 50px;
         }
 
+        .new-title h2 {
+            font-size: 45px;
+        }
+
         .new-title p {
-            font-size: 40px
+            font-size: 34px
         }
         
     }
@@ -203,8 +225,12 @@ body {
             font-size: 55px;
         }
 
+        .new-title h2 {
+            font-size: 50px;
+        }
+
         .new-title p {
-            font-size: 45px
+            font-size: 37px
         }
         
     }
@@ -217,8 +243,12 @@ body {
             font-size: 60px;
         }
 
+        .new-title h2 {
+            font-size: 55px;
+        }
+
         .new-title p {
-            font-size: 50px
+            font-size: 40px
         }
         
     }
@@ -231,8 +261,12 @@ body {
             font-size: 65px;
         }
 
+        .new-title h2 {
+            font-size: 60px;
+        }
+
         .new-title p {
-            font-size: 55px
+            font-size: 43px
         }
         
     }
@@ -245,8 +279,12 @@ body {
             font-size: 70px;
         }
 
+        .new-title h2 {
+            font-size: 65px;
+        }
+
         .new-title p {
-            font-size: 60px
+            font-size: 46px
         }
         
     }
@@ -258,8 +296,12 @@ body {
         font-size: 75px;
     }
 
+    .new-title h2 {
+        font-size: 70px;
+    }
+
     .new-title p {
-        font-size: 65px
+        font-size: 49px
     }
 }
 
