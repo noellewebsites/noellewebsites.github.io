@@ -1664,8 +1664,15 @@ a {
     text-shadow: var(--bl) 2px 2px 2px;
 }
 
-.page-display-vid-container, .page-display-vid-container-2 {
+.page-display-vid-container {
     display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+}
+
+.page-display-vid-container-2 {
+    display: block;
     margin: 0 auto;
     height: auto;
     text-align: center;
