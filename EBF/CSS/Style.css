@@ -641,6 +641,10 @@ a {
     border: 2px solid rgb(255,255,255);
 }
 
+.cad-packages-info {
+    color: var(--White);
+}
+
 /*Responsive About content */
 @media screen and (min-device-width: 300px) {
     .bt-o {
