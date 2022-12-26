@@ -1395,6 +1395,7 @@ a {
     text-align: center;
   /*  background: linear-gradient(var(--blissfulGlowgrey),var(--blissfulGlowTeal),var(--blissfulGlowMaroon),var(--blissfulGlowPink)); */
     display: block;
+    color: var(--White);
 }
 
 .gradient-container {
