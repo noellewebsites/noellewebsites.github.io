@@ -1420,6 +1420,7 @@ a {
     color: var(--bl);
     text-align: center;
     /*text-shadow: 2px 2px 2px var(--bsb);*/
+    color: var(--White);
 }
 
 .blissful-glow-container a {
