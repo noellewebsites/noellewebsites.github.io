@@ -472,7 +472,7 @@ a {
     margin: 0 auto;
     text-align: center;
     color: var(--White);
-    text-shadow: 2px 2px 2px var(--mcb);
+   /* text-shadow: 2px 2px 2px var(--mcb); */
    /* text-shadow: 1px 1px var(--Black);*/
     /*padding: 0 20px;*/
     text-decoration: none;
@@ -564,7 +564,7 @@ a {
     /* background-color: var(--NewGWBlue); */
     /*background: linear-gradient(-45deg, var(--NewGWYellow),var(--NewGWBlue)); */
     color: var(--MeteorJSPurple);
-    text-shadow: 1px 1px var(--Black);
+    /*text-shadow: 1px 1px var(--Black); */
    /* border-radius: 36%; */
    /* padding: 4px;*/
    /* background-color: var(--SilverChalice); */
@@ -573,7 +573,7 @@ a {
 
 .believe h1 {
     color: var(--White);
-    text-shadow: 2px 2px 2px var(--bl);
+   /* text-shadow: 2px 2px 2px var(--bl); */
 }
 
 @media screen and (min-width: 1px) {
@@ -807,7 +807,7 @@ a {
 
 .ts-mc {
     /* text-shadow: 1.25px 1.25px var(--mcb); */
-    text-shadow: 1.25px 1.25px var(--bl);
+  /*  text-shadow: 1.25px 1.25px var(--bl); */
 }
 
 @media screen and (min-width: 1000px) {
@@ -1283,14 +1283,14 @@ a {
     text-align: center;
     font-size: 60px;
     color: var(--White);
-    text-shadow: var(--Black) 2px 2px 2px;
+  /*  text-shadow: var(--Black) 2px 2px 2px; */
   }
 
   .container-img a {
       text-decoration: none;
       font-size: 60px;
       color: var(--White);
-      text-shadow: var(--Black) 2px 2px 2px;
+    /*  text-shadow: var(--Black) 2px 2px 2px; */
   }
 
   @media screen and (min-width: 1px) {
@@ -1414,7 +1414,7 @@ a {
 .blissful-glow-container a {
     text-decoration: none;
     color: var(--White);
-    text-shadow: 1px 2px 2px var(--bsb);
+   /* text-shadow: 1px 2px 2px var(--bsb); */
     font-size: 16px;
     text-align: center;
     margin-left: auto;
@@ -1527,7 +1527,7 @@ a {
 }
 
 .ts-mbl {
-    text-shadow: 1.25px 1.25px var(--bl);
+   /* text-shadow: 1.25px 1.25px var(--bl); */
 }
 
 
@@ -1546,7 +1546,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
 }
 
 .page-display-img-text-2 {
@@ -1555,7 +1555,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1565,7 +1565,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+   /* text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1575,7 +1575,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+   /* text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1585,7 +1585,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1595,7 +1595,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1605,7 +1605,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
    /* position: relative; */
 }
 
@@ -1615,7 +1615,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
     font-weight: bold;
 }
 
@@ -1625,7 +1625,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
 }
 
 .page-display-bb-container {
@@ -1642,7 +1642,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+   /* text-shadow: var(--bl) 2px 2px 2px; */
 }
 
 .page-display-img-text-c {
@@ -1651,7 +1651,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
     font-size: 20px;
 }
 
@@ -1661,7 +1661,7 @@ a {
     height: auto;
     text-align: center;
     color: var(--White);
-    text-shadow: var(--bl) 2px 2px 2px;
+  /*  text-shadow: var(--bl) 2px 2px 2px; */
 }
 
 .page-display-vid-container {
