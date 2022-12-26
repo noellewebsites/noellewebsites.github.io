@@ -1051,7 +1051,7 @@ a {
     color: white;
     left: 0;
     margin-left: 0;
-    font-size: 33px;
+    font-size: 25px;
     border-radius: 5px;
     /*padding: 5px 10px;*/
 }
@@ -1522,7 +1522,7 @@ a {
 .cr-t2 {
     color: rgb(255,255,255);
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
 }
 
