@@ -148,14 +148,14 @@ a {
 
 .new-title h1, h2 {
     color: var(--White);
-    text-shadow: 2px 2px 2px var(--mcb);
+    /*text-shadow: 2px 2px 2px var(--mcb);*/
     text-align: center;
     font-weight: bold;
 }
 
 .new-title p {
     color: var(--White);
-    text-shadow: 2px 2px 2px var(--mcb);
+    /*text-shadow: 2px 2px 2px var(--mcb);*/
     text-align: center;
 }
 
