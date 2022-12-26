@@ -332,6 +332,12 @@ a {
     box-shadow: 2px 8px 16px 2px rgba(0, 0, 0, 0.397);
 }
 
+.zl-1 {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 .btn-ocm {
     border: 2px solid black;
     background-color: white;
@@ -1505,6 +1511,7 @@ a {
     border-radius: 5px;
     height: auto;
     display: block;
+    text-align: center;
 }
 
 .cr {
