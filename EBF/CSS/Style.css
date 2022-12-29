@@ -993,7 +993,7 @@ a {
     color: var(--White);
     padding: 10px 22px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
@@ -1019,7 +1019,7 @@ a {
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
     .fixed-navbar-icon {
        display: block;
        float: right;
