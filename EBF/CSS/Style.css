@@ -825,7 +825,7 @@ a {
         border-radius: 7px;
         height: auto;
         float: left;
-        width: 30%;
+        width: 32%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -836,7 +836,7 @@ a {
         border-radius: 7px;
         height: auto;
         float: left;
-        width: 38%;
+        width: 40%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -844,7 +844,7 @@ a {
       }
     
       .logo-display-img:hover {
-          width: 40%;
+          width: 42%;
           transition: all .25s;
       }
     }
@@ -858,7 +858,7 @@ a {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 45%;
+            width: 47%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -870,14 +870,14 @@ a {
         height: auto;
         text-align: center;
         display: inline-block;
-        width: 50%;
+        width: 52%;
         float: none;
         border-radius: 3px;
         position: relative;
     }
 
     .logo-display-img:hover {
-        width: 53%;
+        width: 55%;
         transition: all .25s;
     }
   }
@@ -886,6 +886,41 @@ a {
 
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 700px) {
+        .logo-display {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 37%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .logo-display-img {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 46%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .logo-display-img:hover {
+            width: 48%;
+            transition: all .25s;
+        }
+    }
+
+    
+}
+
+@media screen and (min-width: 700px) {
+    @media screen and (max-width: 800px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -904,49 +939,14 @@ a {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 44%;
+            width: 42%;
             float: none;
             border-radius: 3px;
             position: relative;
         }
 
         .logo-display-img:hover {
-            width: 46%;
-            transition: all .25s;
-        }
-    }
-
-    
-}
-
-@media screen and (min-width: 700px) {
-    @media screen and (max-width: 800px) {
-        .logo-display {
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            text-align: center;
-            display: inline-block;
-            width: 33%;
-            float: none;
-            border-radius: 3px;
-            position: relative;
-        }
-
-        .logo-display-img {
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            text-align: center;
-            display: inline-block;
-            width: 40%;
-            float: none;
-            border-radius: 3px;
-            position: relative;
-        }
-
-        .logo-display-img:hover {
-            width: 43%;
+            width: 45%;
             transition: all .25s;
         }
     }
@@ -960,7 +960,7 @@ a {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 29%;
+            width: 31%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -972,14 +972,14 @@ a {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 37%;
+            width: 39%;
             float: none;
             border-radius: 3px;
             position: relative;
         }
 
         .logo-display-img:hover {
-            width: 39%;
+            width: 41%;
             transition: all .25s;
         }
     }
@@ -2017,4 +2017,16 @@ a {
     .page-display-img-text-p {
         font-size: 28px;
     }
+}
+
+.yoga-img {
+    margin:0 auto;
+    text-align: center;
+    display: block;
+}
+
+.yoga-container {
+    margin:0 auto;
+    text-align: center;
+    display: block;
 }
