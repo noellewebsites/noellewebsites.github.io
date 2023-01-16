@@ -991,7 +991,7 @@ a {
     float: left;
     text-align: center;
     color: var(--White);
-    padding: 10px 39px;
+    padding: 15px 39px;
     text-decoration: none;
     font-size: 26px;
     background-size: 0% 100%;
@@ -1019,7 +1019,7 @@ a {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
     .fixed-navbar-icon {
        display: block;
        float: right;
