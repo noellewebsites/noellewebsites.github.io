@@ -6,7 +6,7 @@ var closeButton = document.getElementById("CB1");
 /* Open form on button click */
 opButton.onclick = function() {
     emForm.style.display = "block";
-    document.getElementById("EF1").className = "form-popup col-5 animate_animated animate_zoomIn";
+    document.getElementById("EF1").className = "form-popup col-5 animate__animated animate__zoomIn";
 }
 
 //Close form on button click
