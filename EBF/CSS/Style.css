@@ -2055,6 +2055,9 @@ a {
     margin:0 auto;
     z-index: 19;
     border: 3px solid var(--mcb);
+    position: fixed;
+    bottom: 23px;
+    text-align: center;
 }
 
 /* Add form container styles */
