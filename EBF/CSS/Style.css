@@ -2052,7 +2052,9 @@ a {
 /* Popup form */
 .form-popup {
     display: block;
-    margin:0 auto;
+   /* margin:0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
     z-index: 19;
     border: 3px solid var(--mcb);
     position: fixed;
