@@ -2033,6 +2033,10 @@ a {
 }
 
 /* Pop up form settings */
+#EF1 {
+    display: none;
+}
+
 .open-button {
     background-color: var(--EBFGreen);
     color: var(--White);
@@ -2046,8 +2050,7 @@ a {
 
 /* Popup form */
 .form-popup {
-    display: none;
-    position: fixed;
+    display: block;
     margin:0 auto;
     z-index: 9;
     border: 3px solid var(--mcb);
