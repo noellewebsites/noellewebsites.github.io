@@ -17,6 +17,14 @@ var suButton = dcoument.getElementById("SU1");
 var emModal = document.getElementById("EM1");
 var emClose = document.getElementById("EMC");
 var emCancel = document.getElementById("CN1");
+var emForm = document.getElementById("EF1");
+var opButton = document.getElementById("OP1");
+
+/* Open form on button click */
+opButton.onclick = function() {
+    emForm.style.display = "block";
+    emForm.className = "form-popup col-5 animate_animated animate_zoomIn";
+}
 
 /* Open modal on button click */
 suButton.onclick = function() {

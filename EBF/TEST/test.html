@@ -38,7 +38,7 @@
     <title>Fitness Classes</title>
 
     <!-- Main content of the page -->
-    <body>
+    <body>    
 
         <a href="H1" name="H1"></a>
 
@@ -135,7 +135,27 @@
         <br>
 
         <!-- Email Signup Form -->
-        <button id="SU1" class="email-buttons">Free Class!</button>
+        <button id="OP1" class="col-4 open-button">Free Class!</button>
+
+        <div id="EF1" class="form-popup col-5">
+            <form method="post" action="/PROCESSING/MAGIC/PHP/Registration.php" class="form-container col-9">
+                <h2 class="form-info col-7">
+                    Enter your email to register for your free class!
+                </h2>
+                <h3 class="form-info col-7">*Limit 1 per-person*</h3>
+                <br>
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <h4 class="message-result col-8"><?php echo "$emailMsg \r\n";?></h4>
+                <br>
+                <br>
+                <button type="submit" class="btn-p">Register</button>
+                <button type="button" class="btn-p cancel-p">Close</button>
+            </form>
+        </div>
+
+
+        <!--button id="SU1" class="email-buttons">Free Class!</button>
 
         <div id="EM1" class="email-modal">
             <span id="EMC" class="email-close" title="Close Modal">&times;</span>
@@ -152,7 +172,7 @@
                    </div>
                 </div>
             </form>
-        </div>
+        </div-->
 
         <!--Tik Tok Video-->
         <div class="col-12 page-display-container">

@@ -2032,113 +2032,70 @@ a {
     display: block;
 }
 
-/* Form settings */
-input[type=text] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    background: #f1f1f1;
+/* Pop up form settings */
+.open-button {
+    background-color: var(--EBFGreen);
+    color: var(--White);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    margin:0 auto;
+    text-align: center;
 }
 
-/* Add background color when focused */
-input[type=text]:focus {
+/* Popup form */
+.form-popup {
+    display: none;
+    position: fixed;
+    margin:0 auto;
+    z-index: 9;
+    border: 3px solid var(--mcb);
+}
+
+/* Add form container styles */
+.form-container {
+    padding: 10px;
+    background-color: var(--White);
+}
+
+/* Do sometihing on input field focus */
+.form-container input[type=text]:focus {
     background-color: #ddd;
     outline: none;
 }
 
-/* Set style for buttons */
-.email-buttons {
-    background-color: #04AA6D;
+/* Set a style for the validate/submit button */
+.form-container .btn-p {
+    background-color: var(--EBFGreen);
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 16px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
-    opacity: 0.9;
+    margin-bottom: 10px;
+    opacity: 0.8;
 }
 
-.email-buttons:hover {
-    opacity:1;
+/* Add a red background to the cancel button */
+.form-container .cancel-p {
+    background-color: red;
 }
 
-.email-title {
-    color: var(--mcb);
+/* Button hover effects */
+.form-container .btn-p:hover, .open-button-p:hover {
+    opacity: 1;
+}
+
+/* Form info */
+.form-info {
+    margin:0 auto;
+    text-align: center;
     font-weight: bold;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-  }
-  
-  /* Float cancel and signup buttons and add an equal width */
-  .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-  }
-
-/* Add padding to container elements */
-.email-container {
-    padding: 16px;
-  }
-  
-  /* The Modal (background) */
-  .email-modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: #474e5d;
-    padding-top: 50px;
-  }
-  
-  /* Modal Content/Box */
-  .email-modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }  
-
-  /* Style the horizontal ruler */
-.email-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-   
-  /* The Close Button (x) */
-  .email-close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-  }
-  
-  .email-close:hover,
-  .email-close:focus {
-    color: #f44336;
-    cursor: pointer;
-  }
-  
-  /* Clear floats */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-  }
+/* Submission result message */
+.message-result {
+    margin: 0 auto;
+    text-align: center;
+}
