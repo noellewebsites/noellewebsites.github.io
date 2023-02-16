@@ -9,6 +9,9 @@ opButton.onclick = function() {
     document.getElementById("EF1").className = "form-popup col-5 animate__animated animate__zoomIn";
 }
 
+//Validate email address, and display result
+
+
 //Close form on button click
 closeButton.onclick = function() {
     emForm.style.display = "none";
